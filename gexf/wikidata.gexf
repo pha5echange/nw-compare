@@ -1,0 +1,1770 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="psychedelic_music" label="psychedelic_music" />
+      <node id="Afrotrap" label="Afrotrap" />
+      <node id="Pornogrind" label="Pornogrind" />
+      <node id="Metal_oriental" label="Metal_oriental" />
+      <node id="Szczedriwka" label="Szczedriwka" />
+      <node id="art_rock" label="art_rock" />
+      <node id="Youth_crew" label="Youth_crew" />
+      <node id="Son_montuno" label="Son_montuno" />
+      <node id="Hard_dance" label="Hard_dance" />
+      <node id="Eefing" label="Eefing" />
+      <node id="folktronica" label="folktronica" />
+      <node id="smooth_jazz" label="smooth_jazz" />
+      <node id="Music_of_Innsbruck" label="Music_of_Innsbruck" />
+      <node id="Beatdown_Hardcore" label="Beatdown_Hardcore" />
+      <node id="industrial_dance" label="industrial_dance" />
+      <node id="Electrotango" label="Electrotango" />
+      <node id="chillwave" label="chillwave" />
+      <node id="Tropotianka" label="Tropotianka" />
+      <node id="Piano_blues" label="Piano_blues" />
+      <node id="Tech_trance" label="Tech_trance" />
+      <node id="soul_jazz" label="soul_jazz" />
+      <node id="merengue_music" label="merengue_music" />
+      <node id="funeral_doom_metal" label="funeral_doom_metal" />
+      <node id="Bikutsi" label="Bikutsi" />
+      <node id="Cançó_melòdica" label="Cançó_melòdica" />
+      <node id="alternative_R&amp;B" label="alternative_R&amp;B" />
+      <node id="hip_hop_soul" label="hip_hop_soul" />
+      <node id="Doomcore" label="Doomcore" />
+      <node id="Chaoui_music" label="Chaoui_music" />
+      <node id="Wonky" label="Wonky" />
+      <node id="Hutsulka" label="Hutsulka" />
+      <node id="Cha-cha-cha" label="Cha-cha-cha" />
+      <node id="Louisiana_blues" label="Louisiana_blues" />
+      <node id="Gamelan_salendro" label="Gamelan_salendro" />
+      <node id="Pagode" label="Pagode" />
+      <node id="Kwaito" label="Kwaito" />
+      <node id="Progg" label="Progg" />
+      <node id="Bolel" label="Bolel" />
+      <node id="dancehall" label="dancehall" />
+      <node id="Qawwali" label="Qawwali" />
+      <node id="Political_hip_hop" label="Political_hip_hop" />
+      <node id="Sadra" label="Sadra" />
+      <node id="Brukdown" label="Brukdown" />
+      <node id="Jumpstyle" label="Jumpstyle" />
+      <node id="Taiwanese_rock" label="Taiwanese_rock" />
+      <node id="hardcore_punk" label="hardcore_punk" />
+      <node id="Jwé" label="Jwé" />
+      <node id="Hard_trance" label="Hard_trance" />
+      <node id="bossa_nova" label="bossa_nova" />
+      <node id="Chinese_hip_hop" label="Chinese_hip_hop" />
+      <node id="progressive_death_metal" label="progressive_death_metal" />
+      <node id="Schranz" label="Schranz" />
+      <node id="Čalgija" label="Čalgija" />
+      <node id="blues_metal" label="blues_metal" />
+      <node id="Industrial_hardcore" label="Industrial_hardcore" />
+      <node id="Progressive_Trance" label="Progressive_Trance" />
+      <node id="popular_music" label="popular_music" />
+      <node id="Tipico" label="Tipico" />
+      <node id="Pacific_reggae" label="Pacific_reggae" />
+      <node id="Armenian_Folk_Music" label="Armenian_Folk_Music" />
+      <node id="epische_heavy_metal" label="epische_heavy_metal" />
+      <node id="Waka_music" label="Waka_music" />
+      <node id="Easycore" label="Easycore" />
+      <node id="East_Coast_hip_hop" label="East_Coast_hip_hop" />
+      <node id="Slovenian_rock" label="Slovenian_rock" />
+      <node id="Coimbra_Fado" label="Coimbra_Fado" />
+      <node id="rub-a-dub" label="rub-a-dub" />
+      <node id="Power_duo" label="Power_duo" />
+      <node id="Ovsenki" label="Ovsenki" />
+      <node id="jangle_pop" label="jangle_pop" />
+      <node id="Chumak" label="Chumak" />
+      <node id="Vallenato-salsa" label="Vallenato-salsa" />
+      <node id="showmuziek" label="showmuziek" />
+      <node id="Acidcore" label="Acidcore" />
+      <node id="metalcore" label="metalcore" />
+      <node id="Gattung_Musik" label="Gattung_Musik" />
+      <node id="Andean_New_Age" label="Andean_New_Age" />
+      <node id="Cantes_a_palo_seco" label="Cantes_a_palo_seco" />
+      <node id="indie_pop" label="indie_pop" />
+      <node id="Indorock" label="Indorock" />
+      <node id="Miami_bass" label="Miami_bass" />
+      <node id="lo-fi_music" label="lo-fi_music" />
+      <node id="Gamelan_bebonangan" label="Gamelan_bebonangan" />
+      <node id="samba_reggae" label="samba_reggae" />
+      <node id="new_jack_swing" label="new_jack_swing" />
+      <node id="Samba_rock" label="Samba_rock" />
+      <node id="Pirekua" label="Pirekua" />
+      <node id="Electro_swing" label="Electro_swing" />
+      <node id="2_Tone" label="2_Tone" />
+      <node id="psychedelic_trance" label="psychedelic_trance" />
+      <node id="Shibuya-kei" label="Shibuya-kei" />
+      <node id="Electro_dance" label="Electro_dance" />
+      <node id="Punta" label="Punta" />
+      <node id="Zamba" label="Zamba" />
+      <node id="Orchestral_jazz" label="Orchestral_jazz" />
+      <node id="Dunedin_Sound" label="Dunedin_Sound" />
+      <node id="mainstream_hardcore" label="mainstream_hardcore" />
+      <node id="Indian_classical_music" label="Indian_classical_music" />
+      <node id="g-funk" label="g-funk" />
+      <node id="Latin_hip_hop" label="Latin_hip_hop" />
+      <node id="Rock_en_español" label="Rock_en_español" />
+      <node id="Chicago_soul" label="Chicago_soul" />
+      <node id="Acid_techno" label="Acid_techno" />
+      <node id="Timba" label="Timba" />
+      <node id="post-rock" label="post-rock" />
+      <node id="Coupé-Décalé" label="Coupé-Décalé" />
+      <node id="Future_garage" label="Future_garage" />
+      <node id="Mainstream_rock" label="Mainstream_rock" />
+      <node id="Music_in_Tatarstan" label="Music_in_Tatarstan" />
+      <node id="country_blues" label="country_blues" />
+      <node id="Highlife" label="Highlife" />
+      <node id="alternative_rock" label="alternative_rock" />
+      <node id="Stoner_Doom" label="Stoner_Doom" />
+      <node id="Brick_City_club" label="Brick_City_club" />
+      <node id="ragtime" label="ragtime" />
+      <node id="jazz-funk" label="jazz-funk" />
+      <node id="chamber_pop" label="chamber_pop" />
+      <node id="Bakersfield_sound" label="Bakersfield_sound" />
+      <node id="Hipster_hop" label="Hipster_hop" />
+      <node id="screamo" label="screamo" />
+      <node id="Soukous" label="Soukous" />
+      <node id="progressive_bluegrass" label="progressive_bluegrass" />
+      <node id="Music_of_Alberta" label="Music_of_Alberta" />
+      <node id="Diva_house" label="Diva_house" />
+      <node id="classical_music" label="classical_music" />
+      <node id="New_Age_music" label="New_Age_music" />
+      <node id="Brown-eyed_soul" label="Brown-eyed_soul" />
+      <node id="Danza" label="Danza" />
+      <node id="glam_rock" label="glam_rock" />
+      <node id="Illbient" label="Illbient" />
+      <node id="Denpa_song" label="Denpa_song" />
+      <node id="Baltimore_club" label="Baltimore_club" />
+      <node id="Moombahcore" label="Moombahcore" />
+      <node id="Fasıl" label="Fasıl" />
+      <node id="Alternative" label="Alternative" />
+      <node id="Gamelan_Gadhon" label="Gamelan_Gadhon" />
+      <node id="rawstyle" label="rawstyle" />
+      <node id="Gypsy_punk" label="Gypsy_punk" />
+      <node id="Red_and_Anarchist_black_metal" label="Red_and_Anarchist_black_metal" />
+      <node id="protopunk" label="protopunk" />
+      <node id="progressive_folk_music" label="progressive_folk_music" />
+      <node id="Brostep" label="Brostep" />
+      <node id="post-Britpop" label="post-Britpop" />
+      <node id="Lowercase" label="Lowercase" />
+      <node id="Country_rap" label="Country_rap" />
+      <node id="acid_jazz" label="acid_jazz" />
+      <node id="choral_music" label="choral_music" />
+      <node id="rocksteady" label="rocksteady" />
+      <node id="glitch" label="glitch" />
+      <node id="world_music" label="world_music" />
+      <node id="Terrorcore" label="Terrorcore" />
+      <node id="Hyangak" label="Hyangak" />
+      <node id="Broken_beat" label="Broken_beat" />
+      <node id="surf_music" label="surf_music" />
+      <node id="gospel_blues" label="gospel_blues" />
+      <node id="cabaret_rock" label="cabaret_rock" />
+      <node id="hard_bop" label="hard_bop" />
+      <node id="hardcore_ragga" label="hardcore_ragga" />
+      <node id="happy_hardcore" label="happy_hardcore" />
+      <node id="Turbo-folk" label="Turbo-folk" />
+      <node id="evening_song" label="evening_song" />
+      <node id="reggae_rock" label="reggae_rock" />
+      <node id="tropical_house" label="tropical_house" />
+      <node id="jazz_fusion" label="jazz_fusion" />
+      <node id="Italo_disco" label="Italo_disco" />
+      <node id="nerdcore" label="nerdcore" />
+      <node id="Fell" label="Fell" />
+      <node id="Boogaloo" label="Boogaloo" />
+      <node id="Mirror_canon" label="Mirror_canon" />
+      <node id="Epic_music" label="Epic_music" />
+      <node id="موسيقى_حضرمية" label="موسيقى_حضرمية" />
+      <node id="VIA_music" label="VIA_music" />
+      <node id="ballad" label="ballad" />
+      <node id="Ziglibithy" label="Ziglibithy" />
+      <node id="trip_hop" label="trip_hop" />
+      <node id="Ohangla_dance" label="Ohangla_dance" />
+      <node id="Chaiti" label="Chaiti" />
+      <node id="noise_pop" label="noise_pop" />
+      <node id="indie_folk" label="indie_folk" />
+      <node id="Montuno" label="Montuno" />
+      <node id="Christian_hip_hop" label="Christian_hip_hop" />
+      <node id="tech_house" label="tech_house" />
+      <node id="Celtic_punk" label="Celtic_punk" />
+      <node id="Cloud_rap" label="Cloud_rap" />
+      <node id="Techstep" label="Techstep" />
+      <node id="Dutch-language_music" label="Dutch-language_music" />
+      <node id="instrumental" label="instrumental" />
+      <node id="rock_music" label="rock_music" />
+      <node id="էրոտիկ-պատրիոտիկ" label="էրոտիկ-պատրիոտիկ" />
+      <node id="Igbo_rap" label="Igbo_rap" />
+      <node id="contemporary_classical_music" label="contemporary_classical_music" />
+      <node id="latin_rock" label="latin_rock" />
+      <node id="dansktop" label="dansktop" />
+      <node id="Ultra" label="Ultra" />
+      <node id="kayōkyoku" label="kayōkyoku" />
+      <node id="Wassoulou_music" label="Wassoulou_music" />
+      <node id="grindcore" label="grindcore" />
+      <node id="Éthio-jazz" label="Éthio-jazz" />
+      <node id="Tamunangue" label="Tamunangue" />
+      <node id="Latin_pop" label="Latin_pop" />
+      <node id="tropicália" label="tropicália" />
+      <node id="Merenhouse" label="Merenhouse" />
+      <node id="heavy_metal_music" label="heavy_metal_music" />
+      <node id="Kindie_rock" label="Kindie_rock" />
+      <node id="Nordic_folk_music" label="Nordic_folk_music" />
+      <node id="Nu-funk" label="Nu-funk" />
+      <node id="Austropop" label="Austropop" />
+      <node id="British_hip_hop" label="British_hip_hop" />
+      <node id="Pasillo" label="Pasillo" />
+      <node id="drill" label="drill" />
+      <node id="Speedcore" label="Speedcore" />
+      <node id="skiffle" label="skiffle" />
+      <node id="New_Wave_of_American_Heavy_Metal" label="New_Wave_of_American_Heavy_Metal" />
+      <node id="technopop" label="technopop" />
+      <node id="Music_in_Khakassia" label="Music_in_Khakassia" />
+      <node id="Bounce_music" label="Bounce_music" />
+      <node id="UK_garage" label="UK_garage" />
+      <node id="dark_metal" label="dark_metal" />
+      <node id="French_house" label="French_house" />
+      <node id="Grindie" label="Grindie" />
+      <node id="funk_metal" label="funk_metal" />
+      <node id="sainaimu" label="sainaimu" />
+      <node id="D-beat" label="D-beat" />
+      <node id="Deep_Funk" label="Deep_Funk" />
+      <node id="Schlager" label="Schlager" />
+      <node id="pop-rap" label="pop-rap" />
+      <node id="Lu" label="Lu" />
+      <node id="symphonic_metal" label="symphonic_metal" />
+      <node id="Gothic_Punk" label="Gothic_Punk" />
+      <node id="Volkstümliche_Musik" label="Volkstümliche_Musik" />
+      <node id="Baithak_Gana" label="Baithak_Gana" />
+      <node id="Punta_rock" label="Punta_rock" />
+      <node id="flamenco" label="flamenco" />
+      <node id="Grebo" label="Grebo" />
+      <node id="avant-prog" label="avant-prog" />
+      <node id="Oppari" label="Oppari" />
+      <node id="sludge_metal" label="sludge_metal" />
+      <node id="Alternative_reggaeton" label="Alternative_reggaeton" />
+      <node id="Hardbag" label="Hardbag" />
+      <node id="Were_music" label="Were_music" />
+      <node id="acoustic_music" label="acoustic_music" />
+      <node id="experimental_dub" label="experimental_dub" />
+      <node id="trap_music" label="trap_music" />
+      <node id="Cymrucana" label="Cymrucana" />
+      <node id="anarcho-punk" label="anarcho-punk" />
+      <node id="soft_rock" label="soft_rock" />
+      <node id="J-Rock" label="J-Rock" />
+      <node id="Group_Sounds" label="Group_Sounds" />
+      <node id="Himene_tarava" label="Himene_tarava" />
+      <node id="Vocal_trance" label="Vocal_trance" />
+      <node id="Manele" label="Manele" />
+      <node id="bebop" label="bebop" />
+      <node id="Worldbeat" label="Worldbeat" />
+      <node id="post-industrial_music" label="post-industrial_music" />
+      <node id="Allaoui" label="Allaoui" />
+      <node id="industrial_metal" label="industrial_metal" />
+      <node id="Country_folk" label="Country_folk" />
+      <node id="Nhari" label="Nhari" />
+      <node id="vocal_jazz" label="vocal_jazz" />
+      <node id="No-Fi" label="No-Fi" />
+      <node id="deathgrind" label="deathgrind" />
+      <node id="old-time_music" label="old-time_music" />
+      <node id="Chromatic_fantasia" label="Chromatic_fantasia" />
+      <node id="electro_house" label="electro_house" />
+      <node id="Underground_hip_hop" label="Underground_hip_hop" />
+      <node id="New_Wave_of_British_Heavy_Metal" label="New_Wave_of_British_Heavy_Metal" />
+      <node id="Chill-out_music" label="Chill-out_music" />
+      <node id="Romanç" label="Romanç" />
+      <node id="German_hip_hop" label="German_hip_hop" />
+      <node id="Depressive_Suicidal_Black_Metal" label="Depressive_Suicidal_Black_Metal" />
+      <node id="Abwe" label="Abwe" />
+      <node id="Italian_hip_hop" label="Italian_hip_hop" />
+      <node id="Wizard_rock" label="Wizard_rock" />
+      <node id="indie_rock" label="indie_rock" />
+      <node id="Neues_Geistliches_Lied" label="Neues_Geistliches_Lied" />
+      <node id="Mezwed" label="Mezwed" />
+      <node id="soul_music" label="soul_music" />
+      <node id="Music_of_Navarre_and_La_Rioja" label="Music_of_Navarre_and_La_Rioja" />
+      <node id="reggae_gospel" label="reggae_gospel" />
+      <node id="Dub_poetry" label="Dub_poetry" />
+      <node id="Reggaestep" label="Reggaestep" />
+      <node id="Dub_techno" label="Dub_techno" />
+      <node id="frat_rock" label="frat_rock" />
+      <node id="math_rock" label="math_rock" />
+      <node id="Norsk_pop_&amp;_rock-leksikon" label="Norsk_pop_&amp;_rock-leksikon" />
+      <node id="Time_Lord_rock" label="Time_Lord_rock" />
+      <node id="music_of_Ireland" label="music_of_Ireland" />
+      <node id="Nangma" label="Nangma" />
+      <node id="Sarva" label="Sarva" />
+      <node id="C-pop" label="C-pop" />
+      <node id="garage_rock" label="garage_rock" />
+      <node id="crust_punk" label="crust_punk" />
+      <node id="French_rock" label="French_rock" />
+      <node id="Deathrock" label="Deathrock" />
+      <node id="bitpop" label="bitpop" />
+      <node id="Kantu" label="Kantu" />
+      <node id="Grime" label="Grime" />
+      <node id="Saz_semai" label="Saz_semai" />
+      <node id="Gamelan_Siteran" label="Gamelan_Siteran" />
+      <node id="Rekuhkara" label="Rekuhkara" />
+      <node id="Nóta" label="Nóta" />
+      <node id="dance_music" label="dance_music" />
+      <node id="2-step_garage" label="2-step_garage" />
+      <node id="dance-pop" label="dance-pop" />
+      <node id="Ca_din_tulnic" label="Ca_din_tulnic" />
+      <node id="turntablism" label="turntablism" />
+      <node id="Raggacore" label="Raggacore" />
+      <node id="free_jazz" label="free_jazz" />
+      <node id="Funkstep" label="Funkstep" />
+      <node id="Negro_spiritual" label="Negro_spiritual" />
+      <node id="klezmer" label="klezmer" />
+      <node id="progressive_metal" label="progressive_metal" />
+      <node id="Moroccan_pop" label="Moroccan_pop" />
+      <node id="Eurobeat" label="Eurobeat" />
+      <node id="neo_soul" label="neo_soul" />
+      <node id="garage_punk" label="garage_punk" />
+      <node id="free_rock" label="free_rock" />
+      <node id="Logobi" label="Logobi" />
+      <node id="World_fusion_music" label="World_fusion_music" />
+      <node id="Guajira" label="Guajira" />
+      <node id="Nhạc_tài_tử" label="Nhạc_tài_tử" />
+      <node id="ambient_house" label="ambient_house" />
+      <node id="glitch_hop" label="glitch_hop" />
+      <node id="pagan_metal" label="pagan_metal" />
+      <node id="Samri" label="Samri" />
+      <node id="comedy_rock" label="comedy_rock" />
+      <node id="Celtic_metal" label="Celtic_metal" />
+      <node id="neo-classical_metal" label="neo-classical_metal" />
+      <node id="Neue_Deutsche_Welle" label="Neue_Deutsche_Welle" />
+      <node id="Hornpipe" label="Hornpipe" />
+      <node id="Sari_gan" label="Sari_gan" />
+      <node id="Sawani" label="Sawani" />
+      <node id="Tejano_music" label="Tejano_music" />
+      <node id="American_folk_music" label="American_folk_music" />
+      <node id="Minstrel" label="Minstrel" />
+      <node id="New_Beat" label="New_Beat" />
+      <node id="Italo_dance" label="Italo_dance" />
+      <node id="Bassline" label="Bassline" />
+      <node id="Merong" label="Merong" />
+      <node id="black_metal" label="black_metal" />
+      <node id="early_reggae" label="early_reggae" />
+      <node id="Celtic_rock" label="Celtic_rock" />
+      <node id="Alkayida" label="Alkayida" />
+      <node id="Kajari" label="Kajari" />
+      <node id="pagan_folk_music" label="pagan_folk_music" />
+      <node id="Homo_hop" label="Homo_hop" />
+      <node id="folk_music" label="folk_music" />
+      <node id="Gothabilly" label="Gothabilly" />
+      <node id="Medieval_folk_rock" label="Medieval_folk_rock" />
+      <node id="Festejo" label="Festejo" />
+      <node id="sonata" label="sonata" />
+      <node id="Chanson_pour_boire" label="Chanson_pour_boire" />
+      <node id="Жестокий_романс" label="Жестокий_романс" />
+      <node id="Yéla" label="Yéla" />
+      <node id="post-metal" label="post-metal" />
+      <node id="black_contemporary" label="black_contemporary" />
+      <node id="Semi-classical_music" label="Semi-classical_music" />
+      <node id="Madchester" label="Madchester" />
+      <node id="Abecedarian_hymn" label="Abecedarian_hymn" />
+      <node id="Salsa_dura" label="Salsa_dura" />
+      <node id="post-grunge" label="post-grunge" />
+      <node id="experimental_rock" label="experimental_rock" />
+      <node id="Wagnerian_rock" label="Wagnerian_rock" />
+      <node id="Holubka" label="Holubka" />
+      <node id="Pirate_Metal" label="Pirate_Metal" />
+      <node id="Rock_Against_Communism" label="Rock_Against_Communism" />
+      <node id="Dhaanto" label="Dhaanto" />
+      <node id="Japanese_jazz" label="Japanese_jazz" />
+      <node id="Gothic" label="Gothic" />
+      <node id="Freak_metal" label="Freak_metal" />
+      <node id="minimal_techno" label="minimal_techno" />
+      <node id="Polo" label="Polo" />
+      <node id="extreme_metal" label="extreme_metal" />
+      <node id="nu_metal" label="nu_metal" />
+      <node id="Music_in_Astrakhan_Oblast" label="Music_in_Astrakhan_Oblast" />
+      <node id="country_pop" label="country_pop" />
+      <node id="Riot_grrrl" label="Riot_grrrl" />
+      <node id="phase_music" label="phase_music" />
+      <node id="reggae_fusion" label="reggae_fusion" />
+      <node id="Oshare_kei" label="Oshare_kei" />
+      <node id="Quimbe" label="Quimbe" />
+      <node id="sufi_rock" label="sufi_rock" />
+      <node id="Calypso_music" label="Calypso_music" />
+      <node id="Psychedelic_folk" label="Psychedelic_folk" />
+      <node id="sunshine_pop" label="sunshine_pop" />
+      <node id="Bend-skin" label="Bend-skin" />
+      <node id="dubstep" label="dubstep" />
+      <node id="Long_song" label="Long_song" />
+      <node id="blues" label="blues" />
+      <node id="dub" label="dub" />
+      <node id="Neoclassical_Dark_Wave" label="Neoclassical_Dark_Wave" />
+      <node id="trikiti" label="trikiti" />
+      <node id="Bhavageete" label="Bhavageete" />
+      <node id="New_Music" label="New_Music" />
+      <node id="big_beat" label="big_beat" />
+      <node id="Glam_punk" label="Glam_punk" />
+      <node id="electronica" label="electronica" />
+      <node id="folk_punk" label="folk_punk" />
+      <node id="Dutch_house" label="Dutch_house" />
+      <node id="Shaabi" label="Shaabi" />
+      <node id="Rebetiko" label="Rebetiko" />
+      <node id="hardstyle" label="hardstyle" />
+      <node id="Tchamassi" label="Tchamassi" />
+      <node id="sadcore" label="sadcore" />
+      <node id="Insertion_aria" label="Insertion_aria" />
+      <node id="Punkabilly" label="Punkabilly" />
+      <node id="jump_blues" label="jump_blues" />
+      <node id="Russian_chanson" label="Russian_chanson" />
+      <node id="martial_industrial" label="martial_industrial" />
+      <node id="hip_hop" label="hip_hop" />
+      <node id="punk_rock" label="punk_rock" />
+      <node id="neo-progressive_rock" label="neo-progressive_rock" />
+      <node id="quiet_storm" label="quiet_storm" />
+      <node id="visual_kei" label="visual_kei" />
+      <node id="Mutu" label="Mutu" />
+      <node id="Latin_metal" label="Latin_metal" />
+      <node id="technical_death_metal" label="technical_death_metal" />
+      <node id="Industrial_rock" label="Industrial_rock" />
+      <node id="Lam_luang" label="Lam_luang" />
+      <node id="Rhyming_spiritual" label="Rhyming_spiritual" />
+      <node id="techno" label="techno" />
+      <node id="Tong_guitar" label="Tong_guitar" />
+      <node id="TV_track" label="TV_track" />
+      <node id="Intelligent_drum_and_bass" label="Intelligent_drum_and_bass" />
+      <node id="dance-punk" label="dance-punk" />
+      <node id="freestyle_music" label="freestyle_music" />
+      <node id="Hiranaam" label="Hiranaam" />
+      <node id="Takht" label="Takht" />
+      <node id="rockabilly" label="rockabilly" />
+      <node id="trip_rock" label="trip_rock" />
+      <node id="Hori" label="Hori" />
+      <node id="Raï" label="Raï" />
+      <node id="Music_of_British_Columbia" label="Music_of_British_Columbia" />
+      <node id="Gazel" label="Gazel" />
+      <node id="Nederpop" label="Nederpop" />
+      <node id="wind_music" label="wind_music" />
+      <node id="stride" label="stride" />
+      <node id="pop_soul" label="pop_soul" />
+      <node id="Xhosa_music" label="Xhosa_music" />
+      <node id="pocky" label="pocky" />
+      <node id="mainstream_jazz" label="mainstream_jazz" />
+      <node id="Urban_Pasifika" label="Urban_Pasifika" />
+      <node id="melodic_hardcore" label="melodic_hardcore" />
+      <node id="Dream_metal" label="Dream_metal" />
+      <node id="Verso" label="Verso" />
+      <node id="Medieval_metal" label="Medieval_metal" />
+      <node id="Oltului" label="Oltului" />
+      <node id="vispop" label="vispop" />
+      <node id="Hi-NRG" label="Hi-NRG" />
+      <node id="Naattupurapaattu" label="Naattupurapaattu" />
+      <node id="Trallpunk" label="Trallpunk" />
+      <node id="Celtic_fusion" label="Celtic_fusion" />
+      <node id="Texas_country_music" label="Texas_country_music" />
+      <node id="ambient_music" label="ambient_music" />
+      <node id="Pìobaireachd" label="Pìobaireachd" />
+      <node id="Taarab" label="Taarab" />
+      <node id="Christian_punk" label="Christian_punk" />
+      <node id="Baggy" label="Baggy" />
+      <node id="Onkyokei" label="Onkyokei" />
+      <node id="Chầu_văn" label="Chầu_văn" />
+      <node id="Southern_hip_hop" label="Southern_hip_hop" />
+      <node id="Music_in_the_Udmurt_Republic" label="Music_in_the_Udmurt_Republic" />
+      <node id="folk_rock" label="folk_rock" />
+      <node id="goregrind" label="goregrind" />
+      <node id="American_march_music" label="American_march_music" />
+      <node id="rap_rock" label="rap_rock" />
+      <node id="doom_metal" label="doom_metal" />
+      <node id="deathcore" label="deathcore" />
+      <node id="Noise_hop" label="Noise_hop" />
+      <node id="Proibidão" label="Proibidão" />
+      <node id="chanson" label="chanson" />
+      <node id="Music_of_Limousin" label="Music_of_Limousin" />
+      <node id="pop_punk" label="pop_punk" />
+      <node id="Soul_blues" label="Soul_blues" />
+      <node id="musique_religieuse" label="musique_religieuse" />
+      <node id="Heavy_progressive" label="Heavy_progressive" />
+      <node id="nu-disco" label="nu-disco" />
+      <node id="tango" label="tango" />
+      <node id="Bogino_duu" label="Bogino_duu" />
+      <node id="nerd-folk" label="nerd-folk" />
+      <node id="Nazi_punk" label="Nazi_punk" />
+      <node id="Lento_Violento" label="Lento_Violento" />
+      <node id="Lounge_rock" label="Lounge_rock" />
+      <node id="moombahton" label="moombahton" />
+      <node id="Yeongsan_hoesang" label="Yeongsan_hoesang" />
+      <node id="reggaeton" label="reggaeton" />
+      <node id="Nuubaat" label="Nuubaat" />
+      <node id="estrade" label="estrade" />
+      <node id="ambient_dub" label="ambient_dub" />
+      <node id="Raga_rock" label="Raga_rock" />
+      <node id="Postmodern_music" label="Postmodern_music" />
+      <node id="symphonic_rock" label="symphonic_rock" />
+      <node id="Western_swing" label="Western_swing" />
+      <node id="kawaii_metal" label="kawaii_metal" />
+      <node id="Algerian_chaabi" label="Algerian_chaabi" />
+      <node id="Ghetto_house" label="Ghetto_house" />
+      <node id="rock_opera" label="rock_opera" />
+      <node id="punk_metal" label="punk_metal" />
+      <node id="hip_house" label="hip_house" />
+      <node id="drone_metal" label="drone_metal" />
+      <node id="Music_of_Brittany" label="Music_of_Brittany" />
+      <node id="Bosnian_rock" label="Bosnian_rock" />
+      <node id="Japanese_hardcore" label="Japanese_hardcore" />
+      <node id="secular_music" label="secular_music" />
+      <node id="Eclecticism_in_music" label="Eclecticism_in_music" />
+      <node id="Sprechgesang" label="Sprechgesang" />
+      <node id="Wonky_pop" label="Wonky_pop" />
+      <node id="avant-garde_music" label="avant-garde_music" />
+      <node id="Afro-Cuban_jazz" label="Afro-Cuban_jazz" />
+      <node id="Palingsound" label="Palingsound" />
+      <node id="religious_music" label="religious_music" />
+      <node id="Khaplam_wai" label="Khaplam_wai" />
+      <node id="traditional_heavy_metal" label="traditional_heavy_metal" />
+      <node id="Chamrieng_Samai" label="Chamrieng_Samai" />
+      <node id="UK_hardcore" label="UK_hardcore" />
+      <node id="operatic_pop" label="operatic_pop" />
+      <node id="National_Socialist_black_metal" label="National_Socialist_black_metal" />
+      <node id="Gaana" label="Gaana" />
+      <node id="Unblack_metal" label="Unblack_metal" />
+      <node id="Gamelan_selunding" label="Gamelan_selunding" />
+      <node id="early_ragga" label="early_ragga" />
+      <node id="Norsecore" label="Norsecore" />
+      <node id="Tonás" label="Tonás" />
+      <node id="morning_song" label="morning_song" />
+      <node id="Funk_carioca" label="Funk_carioca" />
+      <node id="speed_garage" label="speed_garage" />
+      <node id="guitar_music" label="guitar_music" />
+      <node id="Concert_march" label="Concert_march" />
+      <node id="Afro-Peruvian_music" label="Afro-Peruvian_music" />
+      <node id="Rock_progressif_français" label="Rock_progressif_français" />
+      <node id="indietronica" label="indietronica" />
+      <node id="chanson_polyphonique_franco-flamande" label="chanson_polyphonique_franco-flamande" />
+      <node id="Footwork" label="Footwork" />
+      <node id="Türkü" label="Türkü" />
+      <node id="crossover" label="crossover" />
+      <node id="Andalusian_classical_music" label="Andalusian_classical_music" />
+      <node id="acid_house" label="acid_house" />
+      <node id="Darkstep" label="Darkstep" />
+      <node id="Flamenco_rumba" label="Flamenco_rumba" />
+      <node id="alternative_hip_hop" label="alternative_hip_hop" />
+      <node id="Gregorian_chant" label="Gregorian_chant" />
+      <node id="Kapanirong" label="Kapanirong" />
+      <node id="Hipco_Music" label="Hipco_Music" />
+      <node id="Bomba" label="Bomba" />
+      <node id="Ver" label="Ver" />
+      <node id="Son" label="Son" />
+      <node id="Fado" label="Fado" />
+      <node id="Katuli" label="Katuli" />
+      <node id="heartland_rock" label="heartland_rock" />
+      <node id="Music_of_Guizhou" label="Music_of_Guizhou" />
+      <node id="lounge_music" label="lounge_music" />
+      <node id="Bouncy_techno" label="Bouncy_techno" />
+      <node id="Cassation" label="Cassation" />
+      <node id="Music_of_Transylvania" label="Music_of_Transylvania" />
+      <node id="Breakstep" label="Breakstep" />
+      <node id="French_Baroque_music" label="French_Baroque_music" />
+      <node id="trance" label="trance" />
+      <node id="Chumba" label="Chumba" />
+      <node id="laïko" label="laïko" />
+      <node id="Kölschrock" label="Kölschrock" />
+      <node id="show_tune" label="show_tune" />
+      <node id="a_cappella" label="a_cappella" />
+      <node id="alternative_country" label="alternative_country" />
+      <node id="post-punk" label="post-punk" />
+      <node id="Space_music" label="Space_music" />
+      <node id="Franco-country" label="Franco-country" />
+      <node id="Goombay" label="Goombay" />
+      <node id="Beach_music" label="Beach_music" />
+      <node id="Axé_music" label="Axé_music" />
+      <node id="Nigerien_hip_hop" label="Nigerien_hip_hop" />
+      <node id="Balkan_jazz" label="Balkan_jazz" />
+      <node id="handsup" label="handsup" />
+      <node id="Seis" label="Seis" />
+      <node id="Vaporwave" label="Vaporwave" />
+      <node id="cello_rock" label="cello_rock" />
+      <node id="nerd_punk" label="nerd_punk" />
+      <node id="Symphonic_mugam" label="Symphonic_mugam" />
+      <node id="Boxes_Summer_2016_tour" label="Boxes_Summer_2016_tour" />
+      <node id="Dark_rock" label="Dark_rock" />
+      <node id="Dirty_House" label="Dirty_House" />
+      <node id="Funktronica" label="Funktronica" />
+      <node id="Mento" label="Mento" />
+      <node id="Jing_ping" label="Jing_ping" />
+      <node id="Jamaquello" label="Jamaquello" />
+      <node id="electropop" label="electropop" />
+      <node id="intelligent_dance_music" label="intelligent_dance_music" />
+      <node id="Bhatiali" label="Bhatiali" />
+      <node id="Daechwita" label="Daechwita" />
+      <node id="Pilón" label="Pilón" />
+      <node id="psychedelic_soul" label="psychedelic_soul" />
+      <node id="Afro_pop_music" label="Afro_pop_music" />
+      <node id="Chicago_blues" label="Chicago_blues" />
+      <node id="Volksmusik" label="Volksmusik" />
+      <node id="gothic_rock" label="gothic_rock" />
+      <node id="folk_baroque" label="folk_baroque" />
+      <node id="experimental_music" label="experimental_music" />
+      <node id="avant-garde_metal" label="avant-garde_metal" />
+      <node id="musical_comedy" label="musical_comedy" />
+      <node id="Haitian_hip_hop" label="Haitian_hip_hop" />
+      <node id="Downer_metal" label="Downer_metal" />
+      <node id="Post-Black-Metal" label="Post-Black-Metal" />
+      <node id="Prison_rock" label="Prison_rock" />
+      <node id="Chassidische_Musik" label="Chassidische_Musik" />
+      <node id="Oi!" label="Oi!" />
+      <node id="hyphy" label="hyphy" />
+      <node id="contemporary_folk_music" label="contemporary_folk_music" />
+      <node id="freak_folk" label="freak_folk" />
+      <node id="African_reggae" label="African_reggae" />
+      <node id="Soca_music" label="Soca_music" />
+      <node id="Music_of_West_Africa" label="Music_of_West_Africa" />
+      <node id="Stile_concitato" label="Stile_concitato" />
+      <node id="Foxcore" label="Foxcore" />
+      <node id="Hardtechno" label="Hardtechno" />
+      <node id="Powerviolence" label="Powerviolence" />
+      <node id="Neurofunk" label="Neurofunk" />
+      <node id="Chilena" label="Chilena" />
+      <node id="dansband" label="dansband" />
+      <node id="Mbalax" label="Mbalax" />
+      <node id="Music_of_Jharkhand" label="Music_of_Jharkhand" />
+      <node id="Vesnianky" label="Vesnianky" />
+      <node id="Deepkho" label="Deepkho" />
+      <node id="Gharnati_music" label="Gharnati_music" />
+      <node id="alternative_dance" label="alternative_dance" />
+      <node id="ragga_Pop" label="ragga_Pop" />
+      <node id="Neo-glam" label="Neo-glam" />
+      <node id="Nintendocore" label="Nintendocore" />
+      <node id="Riyaz" label="Riyaz" />
+      <node id="anison" label="anison" />
+      <node id="New_York_Death_Metal" label="New_York_Death_Metal" />
+      <node id="Funaná" label="Funaná" />
+      <node id="Hiplife" label="Hiplife" />
+      <node id="Colossal_Baroque" label="Colossal_Baroque" />
+      <node id="Música_Popular_Brasileira" label="Música_Popular_Brasileira" />
+      <node id="Japanese_hip_hop" label="Japanese_hip_hop" />
+      <node id="Tecno_brega" label="Tecno_brega" />
+      <node id="叙情歌" label="叙情歌" />
+      <node id="Biomusic" label="Biomusic" />
+      <node id="Proto-metal" label="Proto-metal" />
+      <node id="Pryvit" label="Pryvit" />
+      <node id="Norwegian_pop_music" label="Norwegian_pop_music" />
+      <node id="Rom_kbach" label="Rom_kbach" />
+      <node id="Balwo" label="Balwo" />
+      <node id="choro" label="choro" />
+      <node id="Papare" label="Papare" />
+      <node id="Comic_song" label="Comic_song" />
+      <node id="reggada" label="reggada" />
+      <node id="country_music" label="country_music" />
+      <node id="Chicago_house" label="Chicago_house" />
+      <node id="Mandopop" label="Mandopop" />
+      <node id="Nayda" label="Nayda" />
+      <node id="thrash_metal" label="thrash_metal" />
+      <node id="Galante_music" label="Galante_music" />
+      <node id="Batuque" label="Batuque" />
+      <node id="Jazz_blues" label="Jazz_blues" />
+      <node id="J-pop" label="J-pop" />
+      <node id="Banda_Sinfónica" label="Banda_Sinfónica" />
+      <node id="jazz" label="jazz" />
+      <node id="Neo-Medieval_music" label="Neo-Medieval_music" />
+      <node id="death_metal" label="death_metal" />
+      <node id="Cyber_metal" label="Cyber_metal" />
+      <node id="Pols" label="Pols" />
+      <node id="Slowcore" label="Slowcore" />
+      <node id="country_rock" label="country_rock" />
+      <node id="progressive_house_music" label="progressive_house_music" />
+      <node id="breakbeat" label="breakbeat" />
+      <node id="neofolk" label="neofolk" />
+      <node id="hard_rock" label="hard_rock" />
+      <node id="dark_cabaret" label="dark_cabaret" />
+      <node id="futurepop" label="futurepop" />
+      <node id="salsa_music" label="salsa_music" />
+      <node id="pop_rock" label="pop_rock" />
+      <node id="Freestyle_rap" label="Freestyle_rap" />
+      <node id="Lewoz" label="Lewoz" />
+      <node id="Mirror_fugue" label="Mirror_fugue" />
+      <node id="Detroit_techno" label="Detroit_techno" />
+      <node id="Freeform_Hardcore" label="Freeform_Hardcore" />
+      <node id="emo" label="emo" />
+      <node id="The_Normals" label="The_Normals" />
+      <node id="neo_acoustic" label="neo_acoustic" />
+      <node id="Canción" label="Canción" />
+      <node id="disco" label="disco" />
+      <node id="Zimdancehall" label="Zimdancehall" />
+      <node id="Bothy_band" label="Bothy_band" />
+      <node id="Latin_American_music" label="Latin_American_music" />
+      <node id="Harawi" label="Harawi" />
+      <node id="Thai_pop_music" label="Thai_pop_music" />
+      <node id="Punk_jazz" label="Punk_jazz" />
+      <node id="alternative_metal" label="alternative_metal" />
+      <node id="bachata" label="bachata" />
+      <node id="nu_skool_breaks" label="nu_skool_breaks" />
+      <node id="rap_metal" label="rap_metal" />
+      <node id="Jesus_music" label="Jesus_music" />
+      <node id="Nu_jazz" label="Nu_jazz" />
+      <node id="Ghettotech" label="Ghettotech" />
+      <node id="Marabi" label="Marabi" />
+      <node id="Proto-prog" label="Proto-prog" />
+      <node id="microhouse" label="microhouse" />
+      <node id="Tsapiky" label="Tsapiky" />
+      <node id="Slamming_Beatdown" label="Slamming_Beatdown" />
+      <node id="Christmas_music" label="Christmas_music" />
+      <node id="Paisley_Underground" label="Paisley_Underground" />
+      <node id="power_pop" label="power_pop" />
+      <node id="Zeelaf" label="Zeelaf" />
+      <node id="Roots_reggae" label="Roots_reggae" />
+      <node id="political_punk" label="political_punk" />
+      <node id="Sarpada" label="Sarpada" />
+      <node id="Gangsta_rap" label="Gangsta_rap" />
+      <node id="Qaxilu" label="Qaxilu" />
+      <node id="Ranchera" label="Ranchera" />
+      <node id="Pinoy_rock" label="Pinoy_rock" />
+      <node id="vallenato" label="vallenato" />
+      <node id="Neue_Volksmusik" label="Neue_Volksmusik" />
+      <node id="early_dancehall" label="early_dancehall" />
+      <node id="spring_song" label="spring_song" />
+      <node id="Porn_groove" label="Porn_groove" />
+      <node id="Nòva_cançon" label="Nòva_cançon" />
+      <node id="traditional_bluegrass" label="traditional_bluegrass" />
+      <node id="Music_of_San_Marino" label="Music_of_San_Marino" />
+      <node id="Progressiu" label="Progressiu" />
+      <node id="ska_punk" label="ska_punk" />
+      <node id="Southern_soul" label="Southern_soul" />
+      <node id="New_Acoustic_Music" label="New_Acoustic_Music" />
+      <node id="H8000" label="H8000" />
+      <node id="sailors_song" label="sailors_song" />
+      <node id="Kawina" label="Kawina" />
+      <node id="Iroquois_music" label="Iroquois_music" />
+      <node id="Country_soul" label="Country_soul" />
+      <node id="chillstep" label="chillstep" />
+      <node id="Neoclassicism" label="Neoclassicism" />
+      <node id="Zeuhl" label="Zeuhl" />
+      <node id="go-go" label="go-go" />
+      <node id="shoegazing" label="shoegazing" />
+      <node id="Bouyon_soca" label="Bouyon_soca" />
+      <node id="Witch_house" label="Witch_house" />
+      <node id="Breakcore" label="Breakcore" />
+      <node id="Cantopop" label="Cantopop" />
+      <node id="Boogie" label="Boogie" />
+      <node id="Cadence-lypso" label="Cadence-lypso" />
+      <node id="Skate_punk" label="Skate_punk" />
+      <node id="Tình_khúc_1954-1975" label="Tình_khúc_1954-1975" />
+      <node id="Cybergrind" label="Cybergrind" />
+      <node id="Northwest_Wind" label="Northwest_Wind" />
+      <node id="Nueva_trova" label="Nueva_trova" />
+      <node id="Music_of_Kalmykia" label="Music_of_Kalmykia" />
+      <node id="childrens_song" label="childrens_song" />
+      <node id="Baisha_xiyue" label="Baisha_xiyue" />
+      <node id="Epic_Doom" label="Epic_Doom" />
+      <node id="Third_wave_of_ska" label="Third_wave_of_ska" />
+      <node id="Shashmaqam" label="Shashmaqam" />
+      <node id="Baião" label="Baião" />
+      <node id="Funeral_Doom" label="Funeral_Doom" />
+      <node id="novelty_song" label="novelty_song" />
+      <node id="Machine-pop" label="Machine-pop" />
+      <node id="New_Yorkshire" label="New_Yorkshire" />
+      <node id="Euro_disco" label="Euro_disco" />
+      <node id="4-beat" label="4-beat" />
+      <node id="Paso_doble" label="Paso_doble" />
+      <node id="feestmuziek" label="feestmuziek" />
+      <node id="post-disco" label="post-disco" />
+      <node id="runo_song" label="runo_song" />
+      <node id="trova" label="trova" />
+      <node id="Chicano_rap" label="Chicano_rap" />
+      <node id="Norteño" label="Norteño" />
+      <node id="dream_pop" label="dream_pop" />
+      <node id="glam_metal" label="glam_metal" />
+      <node id="ragga" label="ragga" />
+      <node id="true_metal" label="true_metal" />
+      <node id="Semba" label="Semba" />
+      <node id="new_wave_music" label="new_wave_music" />
+      <node id="Sleaze_metal" label="Sleaze_metal" />
+      <node id="Bhangra" label="Bhangra" />
+      <node id="cantiga_de_candomblé" label="cantiga_de_candomblé" />
+      <node id="chiptune" label="chiptune" />
+      <node id="Moroccan_chaabi" label="Moroccan_chaabi" />
+      <node id="Compas" label="Compas" />
+      <node id="Combined_rhythm" label="Combined_rhythm" />
+      <node id="Polka" label="Polka" />
+      <node id="parody_music" label="parody_music" />
+      <node id="New_York_hardcore" label="New_York_hardcore" />
+      <node id="Bantu_groove" label="Bantu_groove" />
+      <node id="experimental_hip_hop" label="experimental_hip_hop" />
+      <node id="New_Orleans_soul" label="New_Orleans_soul" />
+      <node id="pop_metal" label="pop_metal" />
+      <node id="progressive_rock" label="progressive_rock" />
+      <node id="Hofii" label="Hofii" />
+      <node id="crunkcore" label="crunkcore" />
+      <node id="jazz_rap" label="jazz_rap" />
+      <node id="Cartageneras" label="Cartageneras" />
+      <node id="Cante_Alentejano" label="Cante_Alentejano" />
+      <node id="Electro" label="Electro" />
+      <node id="Kuduro" label="Kuduro" />
+      <node id="power_metal" label="power_metal" />
+      <node id="geek_rock" label="geek_rock" />
+      <node id="anti-folk" label="anti-folk" />
+      <node id="rapcore" label="rapcore" />
+      <node id="Cajun_music" label="Cajun_music" />
+      <node id="ethno_jazz" label="ethno_jazz" />
+      <node id="Ragga_jungle" label="Ragga_jungle" />
+      <node id="Shanto" label="Shanto" />
+      <node id="elevator_music" label="elevator_music" />
+      <node id="Red_Dirt" label="Red_Dirt" />
+      <node id="Post-progressive" label="Post-progressive" />
+      <node id="New_prog" label="New_prog" />
+      <node id="cool_jazz" label="cool_jazz" />
+      <node id="Street_punk" label="Street_punk" />
+      <node id="Chap_hop" label="Chap_hop" />
+      <node id="Nordischer_Ton" label="Nordischer_Ton" />
+      <node id="avant-garde_jazz" label="avant-garde_jazz" />
+      <node id="psychedelic_rock" label="psychedelic_rock" />
+      <node id="Sogak" label="Sogak" />
+      <node id="Ajisari" label="Ajisari" />
+      <node id="dance-rock" label="dance-rock" />
+      <node id="traditional_pop_music" label="traditional_pop_music" />
+      <node id="Cumbia_villera" label="Cumbia_villera" />
+      <node id="Cha-wave" label="Cha-wave" />
+      <node id="Funky_house" label="Funky_house" />
+      <node id="beguine" label="beguine" />
+      <node id="21st-century_classical_music" label="21st-century_classical_music" />
+      <node id="Zamrock" label="Zamrock" />
+      <node id="Garage_house" label="Garage_house" />
+      <node id="Music_of_Krasnoyarsk_Krai" label="Music_of_Krasnoyarsk_Krai" />
+      <node id="Charanga-vallenata" label="Charanga-vallenata" />
+      <node id="contemporary_Christian_music" label="contemporary_Christian_music" />
+      <node id="Zydeco" label="Zydeco" />
+      <node id="Western_music" label="Western_music" />
+      <node id="Celtic_music" label="Celtic_music" />
+      <node id="industrial_music" label="industrial_music" />
+      <node id="funk" label="funk" />
+      <node id="Gombhira" label="Gombhira" />
+      <node id="Russendisko" label="Russendisko" />
+      <node id="beat_music" label="beat_music" />
+      <node id="muziki_wa_dansi" label="muziki_wa_dansi" />
+      <node id="blue-eyed_soul" label="blue-eyed_soul" />
+      <node id="neo-psychedelia" label="neo-psychedelia" />
+      <node id="Samai" label="Samai" />
+      <node id="Percussion" label="Percussion" />
+      <node id="Toeshey" label="Toeshey" />
+      <node id="chamamé" label="chamamé" />
+      <node id="Argentine_tango" label="Argentine_tango" />
+      <node id="Vishnupada" label="Vishnupada" />
+      <node id="Indigenous_Nigerian_music" label="Indigenous_Nigerian_music" />
+      <node id="Zoblazo" label="Zoblazo" />
+      <node id="Pueblo_music" label="Pueblo_music" />
+      <node id="Darkcore_drum_and_bass" label="Darkcore_drum_and_bass" />
+      <node id="Jazzcore" label="Jazzcore" />
+      <node id="Latin_Alternative" label="Latin_Alternative" />
+      <node id="sophisti-pop" label="sophisti-pop" />
+      <node id="Finnish_rock" label="Finnish_rock" />
+      <node id="Psycho_Country" label="Psycho_Country" />
+      <node id="Blackgaze" label="Blackgaze" />
+      <node id="Christian_metal" label="Christian_metal" />
+      <node id="progressive_country" label="progressive_country" />
+      <node id="nuevo_tango" label="nuevo_tango" />
+      <node id="Folkhop" label="Folkhop" />
+      <node id="power_electronics" label="power_electronics" />
+      <node id="Britpop" label="Britpop" />
+      <node id="acid_trance" label="acid_trance" />
+      <node id="Wong_shadow" label="Wong_shadow" />
+      <node id="Music_in_the_Komi_Republic" label="Music_in_the_Komi_Republic" />
+      <node id="blues_rock" label="blues_rock" />
+      <node id="German_punk" label="German_punk" />
+      <node id="noise_music" label="noise_music" />
+      <node id="Lam_saravane" label="Lam_saravane" />
+      <node id="Taiwanese_hip_hop" label="Taiwanese_hip_hop" />
+      <node id="instrumental_rock" label="instrumental_rock" />
+      <node id="art_punk" label="art_punk" />
+      <node id="tribe" label="tribe" />
+      <node id="Early_Baroque_music" label="Early_Baroque_music" />
+      <node id="house_music" label="house_music" />
+      <node id="Changa" label="Changa" />
+      <node id="Kenyan_hip_hop" label="Kenyan_hip_hop" />
+      <node id="Emo_pop" label="Emo_pop" />
+      <node id="M-Base" label="M-Base" />
+      <node id="Music_of_Hubei" label="Music_of_Hubei" />
+      <node id="electro_hop" label="electro_hop" />
+      <node id="Crossover_jazz" label="Crossover_jazz" />
+      <node id="adult_contemporary_music" label="adult_contemporary_music" />
+      <node id="synthpop" label="synthpop" />
+      <node id="romance" label="romance" />
+      <node id="Rawck_metal" label="Rawck_metal" />
+      <node id="Dixieland" label="Dixieland" />
+      <node id="Goa_trance" label="Goa_trance" />
+      <node id="electro" label="electro" />
+      <node id="Slovak_folk_music" label="Slovak_folk_music" />
+      <node id="Ragga_hip_hop" label="Ragga_hip_hop" />
+      <node id="roots_rock" label="roots_rock" />
+      <node id="Batá-rumba" label="Batá-rumba" />
+      <node id="Filin" label="Filin" />
+      <node id="Music_of_Melanesia" label="Music_of_Melanesia" />
+      <node id="Taqwacore" label="Taqwacore" />
+      <node id="tribal_house" label="tribal_house" />
+      <node id="folk_metal" label="folk_metal" />
+      <node id="Mariachi" label="Mariachi" />
+      <node id="rabiz" label="rabiz" />
+      <node id="Imene_metua" label="Imene_metua" />
+      <node id="Freakbeat" label="Freakbeat" />
+      <node id="Psychedelic_hip_hop" label="Psychedelic_hip_hop" />
+      <node id="Chicago_hardcore" label="Chicago_hardcore" />
+      <node id="emotional_hardcore" label="emotional_hardcore" />
+      <node id="electronic_body_music" label="electronic_body_music" />
+      <node id="Cowpunk" label="Cowpunk" />
+      <node id="post-bop" label="post-bop" />
+      <node id="death_n_roll" label="death_n_roll" />
+      <node id="Broder_singer" label="Broder_singer" />
+      <node id="Indoribbean_Pop" label="Indoribbean_Pop" />
+      <node id="Mixture_Rock" label="Mixture_Rock" />
+      <node id="Tierra_Caliente" label="Tierra_Caliente" />
+      <node id="digital_hardcore" label="digital_hardcore" />
+      <node id="Light_music" label="Light_music" />
+      <node id="comedy_hip_hop" label="comedy_hip_hop" />
+      <node id="post-punk_revival" label="post-punk_revival" />
+      <node id="Lovers_rock" label="Lovers_rock" />
+      <node id="Russian_rock" label="Russian_rock" />
+      <node id="Blue_Beat" label="Blue_Beat" />
+      <node id="ethereal_wave" label="ethereal_wave" />
+      <node id="easy_listening" label="easy_listening" />
+      <node id="Mathcore" label="Mathcore" />
+      <node id="thrashcore" label="thrashcore" />
+      <node id="nerd_music" label="nerd_music" />
+      <node id="Sthayi" label="Sthayi" />
+      <node id="bluegrass_music" label="bluegrass_music" />
+      <node id="Kliningan" label="Kliningan" />
+      <node id="Barokní_opera" label="Barokní_opera" />
+      <node id="melodic_metalcore" label="melodic_metalcore" />
+      <node id="horror_punk" label="horror_punk" />
+      <node id="Filmi_pop" label="Filmi_pop" />
+      <node id="Blatnaya_Pesnya" label="Blatnaya_Pesnya" />
+      <node id="dark_ambient" label="dark_ambient" />
+      <node id="Crunk" label="Crunk" />
+      <node id="chaabi" label="chaabi" />
+      <node id="Ceòl_Beag" label="Ceòl_Beag" />
+      <node id="popular_classical" label="popular_classical" />
+      <node id="oldschool_jungle" label="oldschool_jungle" />
+      <node id="death-doom" label="death-doom" />
+      <node id="hardcore_techno" label="hardcore_techno" />
+      <node id="Yass" label="Yass" />
+      <node id="Pimba" label="Pimba" />
+      <node id="Desi_Hip_Hop" label="Desi_Hip_Hop" />
+      <node id="electric_blues" label="electric_blues" />
+      <node id="sensitive_style" label="sensitive_style" />
+      <node id="baroque_pop" label="baroque_pop" />
+      <node id="New_wave_of_new_wave" label="New_wave_of_new_wave" />
+      <node id="Tswana_music" label="Tswana_music" />
+      <node id="samba" label="samba" />
+      <node id="childrens_music" label="childrens_music" />
+      <node id="berceuse" label="berceuse" />
+      <node id="Dihanaam" label="Dihanaam" />
+      <node id="Melodic_funk" label="Melodic_funk" />
+      <node id="college_rock" label="college_rock" />
+      <node id="Congolese_rumba" label="Congolese_rumba" />
+      <node id="Power_noise" label="Power_noise" />
+      <node id="Southern_Gospel" label="Southern_Gospel" />
+      <node id="bubblegum_pop" label="bubblegum_pop" />
+      <node id="Livetronica" label="Livetronica" />
+      <node id="ska" label="ska" />
+      <node id="Chutney_music" label="Chutney_music" />
+      <node id="Meditation_music" label="Meditation_music" />
+      <node id="Early_Hardstyle" label="Early_Hardstyle" />
+      <node id="independent_music" label="independent_music" />
+      <node id="Wangga" label="Wangga" />
+      <node id="jazzstep" label="jazzstep" />
+      <node id="boogie_rock" label="boogie_rock" />
+      <node id="Music_of_Jiangxi" label="Music_of_Jiangxi" />
+      <node id="Pub_rock" label="Pub_rock" />
+      <node id="march" label="march" />
+      <node id="deep_house" label="deep_house" />
+      <node id="crossover_thrash" label="crossover_thrash" />
+      <node id="French_organ_school" label="French_organ_school" />
+      <node id="Holler_Blues" label="Holler_Blues" />
+      <node id="Industrial_hip_hop" label="Industrial_hip_hop" />
+      <node id="rock_and_roll" label="rock_and_roll" />
+      <node id="Kar" label="Kar" />
+      <node id="Canzone_Napoletana" label="Canzone_Napoletana" />
+      <node id="psychobilly" label="psychobilly" />
+      <node id="electro-industrial" label="electro-industrial" />
+      <node id="Phleng_Thai_sakon" label="Phleng_Thai_sakon" />
+      <node id="Korean_hip_hop" label="Korean_hip_hop" />
+      <node id="Carnatic_music" label="Carnatic_music" />
+      <node id="Music_in_Ingushetia" label="Music_in_Ingushetia" />
+      <node id="Piano_rock" label="Piano_rock" />
+      <node id="Revolution_Summer" label="Revolution_Summer" />
+      <node id="Kacapi_suling" label="Kacapi_suling" />
+      <node id="psychedelic_pop" label="psychedelic_pop" />
+      <node id="Chrieng_Brunh" label="Chrieng_Brunh" />
+      <node id="Neotraditional_country" label="Neotraditional_country" />
+      <node id="twee_pop" label="twee_pop" />
+      <node id="Son_calentano" label="Son_calentano" />
+      <node id="Djent" label="Djent" />
+      <node id="opera" label="opera" />
+      <node id="Haitian_rock" label="Haitian_rock" />
+      <node id="British_rock" label="British_rock" />
+      <node id="French_hip_hop" label="French_hip_hop" />
+      <node id="Hopak-Kolom" label="Hopak-Kolom" />
+      <node id="Bocet" label="Bocet" />
+      <node id="mod_revival" label="mod_revival" />
+      <node id="electronic_dance_music" label="electronic_dance_music" />
+      <node id="melodic_death_metal" label="melodic_death_metal" />
+      <node id="Northern_soul" label="Northern_soul" />
+      <node id="skweee" label="skweee" />
+      <node id="folk_song" label="folk_song" />
+      <node id="electronic_rock" label="electronic_rock" />
+      <node id="synthWave" label="synthWave" />
+      <node id="Music_of_Henan" label="Music_of_Henan" />
+      <node id="Manila_Sound" label="Manila_Sound" />
+      <node id="Bubblegum_dance" label="Bubblegum_dance" />
+      <node id="speed_metal" label="speed_metal" />
+      <node id="Music_of_the_Andaman_and_Nicobar_Islands" label="Music_of_the_Andaman_and_Nicobar_Islands" />
+      <node id="Sambass" label="Sambass" />
+      <node id="Neon_pop" label="Neon_pop" />
+      <node id="Gamelan_gambang" label="Gamelan_gambang" />
+      <node id="Khaliji" label="Khaliji" />
+      <node id="Neue_Deutsche_Härte" label="Neue_Deutsche_Härte" />
+      <node id="enka" label="enka" />
+      <node id="Christian_alternative_rock" label="Christian_alternative_rock" />
+      <node id="Zindalii" label="Zindalii" />
+      <node id="Blackcore" label="Blackcore" />
+      <node id="West_Coast_hip_hop" label="West_Coast_hip_hop" />
+      <node id="Tonadilla" label="Tonadilla" />
+      <node id="Ikinimba" label="Ikinimba" />
+      <node id="brutal_death_metal" label="brutal_death_metal" />
+      <node id="Sea_shanty" label="Sea_shanty" />
+      <node id="slam_death_metal" label="slam_death_metal" />
+      <node id="Dubstyle" label="Dubstyle" />
+      <node id="afrobeat" label="afrobeat" />
+      <node id="Latin_ballad" label="Latin_ballad" />
+      <node id="New_Orleans_rhythm_and_blues" label="New_Orleans_rhythm_and_blues" />
+      <node id="Chant_de_Noël" label="Chant_de_Noël" />
+      <node id="lyrical_art" label="lyrical_art" />
+      <node id="Latin_music" label="Latin_music" />
+      <node id="honky_tonk" label="honky_tonk" />
+      <node id="electronicore" label="electronicore" />
+      <node id="aṣíkò" label="aṣíkò" />
+      <node id="Punk_blues" label="Punk_blues" />
+      <node id="Slutwave" label="Slutwave" />
+      <node id="Mutuashi" label="Mutuashi" />
+      <node id="Ovi_music" label="Ovi_music" />
+      <node id="doo-wop" label="doo-wop" />
+      <node id="Jump-up" label="Jump-up" />
+      <node id="rapping" label="rapping" />
+      <node id="Nueva_ola" label="Nueva_ola" />
+      <node id="Seminole_music" label="Seminole_music" />
+      <node id="space_rock" label="space_rock" />
+      <node id="Latin_soul" label="Latin_soul" />
+      <node id="modinha" label="modinha" />
+      <node id="Hardcore_hip_hop" label="Hardcore_hip_hop" />
+      <node id="Boi" label="Boi" />
+      <node id="Progressive_Psytrance" label="Progressive_Psytrance" />
+      <node id="pub_rock" label="pub_rock" />
+      <node id="Nigun" label="Nigun" />
+      <node id="funk_rock" label="funk_rock" />
+      <node id="art_pop" label="art_pop" />
+      <node id="Fidget_house" label="Fidget_house" />
+      <node id="Horrorcore" label="Horrorcore" />
+      <node id="downtempo" label="downtempo" />
+      <node id="Rock_in_Opposition" label="Rock_in_Opposition" />
+      <node id="drum_and_bass" label="drum_and_bass" />
+      <node id="Midwest_hip_hop" label="Midwest_hip_hop" />
+      <node id="hard_and_heavy" label="hard_and_heavy" />
+      <node id="Skiladiko" label="Skiladiko" />
+      <node id="In_Nomine" label="In_Nomine" />
+      <node id="Americana" label="Americana" />
+      <node id="dream_trance" label="dream_trance" />
+      <node id="West_Coast" label="West_Coast" />
+      <node id="Gaelic_music" label="Gaelic_music" />
+      <node id="Tembang_Sunda" label="Tembang_Sunda" />
+      <node id="Romani_music" label="Romani_music" />
+      <node id="Country_and_Irish" label="Country_and_Irish" />
+      <node id="Music_of_the_Cayman_Islands" label="Music_of_the_Cayman_Islands" />
+      <node id="Europop" label="Europop" />
+      <node id="exotica" label="exotica" />
+      <node id="Bard" label="Bard" />
+      <node id="Frenchcore" label="Frenchcore" />
+      <node id="Morna" label="Morna" />
+      <node id="Jewish_music" label="Jewish_music" />
+      <node id="fantasia" label="fantasia" />
+      <node id="Chut-kai-pang" label="Chut-kai-pang" />
+      <node id="Liturgical_music" label="Liturgical_music" />
+      <node id="Bass_music" label="Bass_music" />
+      <node id="Baroque_music_of_the_British_Isles" label="Baroque_music_of_the_British_Isles" />
+      <node id="Ballet_daction" label="Ballet_daction" />
+      <node id="Music_in_Rostov_Oblast" label="Music_in_Rostov_Oblast" />
+      <node id="Baroque_music" label="Baroque_music" />
+      <node id="Tatar_rock" label="Tatar_rock" />
+      <node id="Glitch-hop" label="Glitch-hop" />
+      <node id="Bandana_thrash" label="Bandana_thrash" />
+      <node id="bluegrass_gospel" label="bluegrass_gospel" />
+      <node id="Porro" label="Porro" />
+      <node id="K-pop" label="K-pop" />
+      <node id="War-metal" label="War-metal" />
+      <node id="Beste" label="Beste" />
+      <node id="pop_music" label="pop_music" />
+      <node id="Italo_house" label="Italo_house" />
+      <node id="Ceol_Meadhonach" label="Ceol_Meadhonach" />
+      <node id="Swamp_pop" label="Swamp_pop" />
+      <node id="Gypsy_jazz" label="Gypsy_jazz" />
+      <node id="mambo" label="mambo" />
+      <node id="Step_metal" label="Step_metal" />
+      <node id="Southern_rock" label="Southern_rock" />
+      <node id="smooth_soul" label="smooth_soul" />
+      <node id="Yürük_semai" label="Yürük_semai" />
+      <node id="Christmas_carol" label="Christmas_carol" />
+      <node id="yé-yé" label="yé-yé" />
+      <node id="Blue_Yodeling" label="Blue_Yodeling" />
+      <node id="Music_in_Nenets_Autonomous_Okrug" label="Music_in_Nenets_Autonomous_Okrug" />
+      <node id="Benga_music" label="Benga_music" />
+      <node id="Taqtuqa" label="Taqtuqa" />
+      <node id="Cuarteto" label="Cuarteto" />
+      <node id="Zouk" label="Zouk" />
+      <node id="British_blues" label="British_blues" />
+      <node id="New_rave" label="New_rave" />
+      <node id="kan_ha_diskan" label="kan_ha_diskan" />
+      <node id="Synthpunk" label="Synthpunk" />
+      <node id="Akiba-pop" label="Akiba-pop" />
+      <node id="Techdombe" label="Techdombe" />
+      <node id="forro" label="forro" />
+      <node id="Música_sertaneja" label="Música_sertaneja" />
+      <node id="angura_kei" label="angura_kei" />
+      <node id="Kwakwakawakw_music" label="Kwakwakawakw_music" />
+      <node id="martial_music" label="martial_music" />
+      <node id="grunge" label="grunge" />
+      <node id="Christian_rock" label="Christian_rock" />
+      <node id="gothic_metal" label="gothic_metal" />
+      <node id="coldwave" label="coldwave" />
+      <node id="carnavalskraker" label="carnavalskraker" />
+      <node id="Afro-soul" label="Afro-soul" />
+      <node id="Progressive_pop" label="Progressive_pop" />
+      <node id="Hip_hop_Tuga" label="Hip_hop_Tuga" />
+      <node id="contemporary_R&amp;B" label="contemporary_R&amp;B" />
+      <node id="Sleaze_Rock" label="Sleaze_Rock" />
+      <node id="minimal_music" label="minimal_music" />
+      <node id="boogie-woogie" label="boogie-woogie" />
+      <node id="Snap_music" label="Snap_music" />
+      <node id="electroclash" label="electroclash" />
+      <node id="Hardstep" label="Hardstep" />
+      <node id="BMG_movement" label="BMG_movement" />
+      <node id="noise_rock" label="noise_rock" />
+      <node id="Tropipop" label="Tropipop" />
+      <node id="Balearic_trance" label="Balearic_trance" />
+      <node id="Bandish" label="Bandish" />
+      <node id="Chilean_rock" label="Chilean_rock" />
+      <node id="drone_music" label="drone_music" />
+      <node id="urban_contemporary" label="urban_contemporary" />
+      <node id="Texas_blues" label="Texas_blues" />
+      <node id="Native_American_hip_hop" label="Native_American_hip_hop" />
+      <node id="Minneapolis_sound" label="Minneapolis_sound" />
+      <node id="liquid_funk" label="liquid_funk" />
+      <node id="Punk_pathetique" label="Punk_pathetique" />
+      <node id="Music_in_Krasnodar_Krai" label="Music_in_Krasnodar_Krai" />
+      <node id="summer_song" label="summer_song" />
+      <node id="Gumbe" label="Gumbe" />
+      <node id="Latin_house" label="Latin_house" />
+      <node id="pastorale" label="pastorale" />
+      <node id="Sevdalinka" label="Sevdalinka" />
+      <node id="gospel_music" label="gospel_music" />
+      <node id="Deuda_song" label="Deuda_song" />
+      <node id="Delta_blues" label="Delta_blues" />
+      <node id="Music_in_Dagestan" label="Music_in_Dagestan" />
+      <node id="Gospel_reggae" label="Gospel_reggae" />
+      <node id="Scottish_Gaelic_punk" label="Scottish_Gaelic_punk" />
+      <node id="Gånglåt" label="Gånglåt" />
+      <node id="Florida_Death_Metal" label="Florida_Death_Metal" />
+      <node id="Pichakaree" label="Pichakaree" />
+      <node id="Maroon_music" label="Maroon_music" />
+      <node id="smooth_reggae" label="smooth_reggae" />
+      <node id="symphonic_black_metal" label="symphonic_black_metal" />
+      <node id="Q-pop" label="Q-pop" />
+      <node id="Revival_punk" label="Revival_punk" />
+      <node id="Swing_revival" label="Swing_revival" />
+      <node id="acid_rock" label="acid_rock" />
+      <node id="De_dragoste" label="De_dragoste" />
+      <node id="Disco_house" label="Disco_house" />
+      <node id="Blues_français" label="Blues_français" />
+      <node id="Xintianyou" label="Xintianyou" />
+      <node id="Balearic_beat" label="Balearic_beat" />
+      <node id="groove_metal" label="groove_metal" />
+      <node id="Marimbalax" label="Marimbalax" />
+      <node id="Muliza" label="Muliza" />
+      <node id="old-school_hip_hop" label="old-school_hip_hop" />
+      <node id="Nueva_canción" label="Nueva_canción" />
+      <node id="breakbeat_hardcore" label="breakbeat_hardcore" />
+      <node id="Mákina" label="Mákina" />
+      <node id="teen_pop" label="teen_pop" />
+      <node id="comedy_music" label="comedy_music" />
+      <node id="Kizomba" label="Kizomba" />
+      <node id="Music_of_Hebei" label="Music_of_Hebei" />
+      <node id="Bay_Area_thrash_metal" label="Bay_Area_thrash_metal" />
+      <node id="Bozlak" label="Bozlak" />
+      <node id="mashup" label="mashup" />
+      <node id="KZ-Pop" label="KZ-Pop" />
+      <node id="Songo-salsa" label="Songo-salsa" />
+      <node id="Dirty_rap" label="Dirty_rap" />
+      <node id="African_Gospel" label="African_Gospel" />
+      <node id="Music_of_Jilin" label="Music_of_Jilin" />
+      <node id="Afro/Cosmic_music" label="Afro/Cosmic_music" />
+      <node id="Folk_rhythm" label="Folk_rhythm" />
+      <node id="Madhya_laya" label="Madhya_laya" />
+      <node id="UK_hard_house" label="UK_hard_house" />
+      <node id="swing_music" label="swing_music" />
+      <node id="Imene_tuki" label="Imene_tuki" />
+      <node id="Concerted_madrigal" label="Concerted_madrigal" />
+      <node id="Outsider_house" label="Outsider_house" />
+      <node id="Music_of_Guangxi" label="Music_of_Guangxi" />
+      <node id="Dōjin_music" label="Dōjin_music" />
+      <node id="Tonada" label="Tonada" />
+      <node id="reggae" label="reggae" />
+      <node id="Bantowbol" label="Bantowbol" />
+      <node id="Cumbia_rap" label="Cumbia_rap" />
+      <node id="Cavalier_song" label="Cavalier_song" />
+      <node id="Krautrock" label="Krautrock" />
+      <node id="Queercore" label="Queercore" />
+      <node id="Kertok" label="Kertok" />
+      <node id="Uruguayan_punk" label="Uruguayan_punk" />
+      <node id="Sawt" label="Sawt" />
+      <node id="Reggae_en_Español" label="Reggae_en_Español" />
+      <node id="Boeremusiek" label="Boeremusiek" />
+      <node id="post-hardcore" label="post-hardcore" />
+      <node id="Pop-Jazz" label="Pop-Jazz" />
+      <node id="Viking_rock" label="Viking_rock" />
+      <node id="Jersey_club" label="Jersey_club" />
+      <node id="Dumka" label="Dumka" />
+      <node id="Early_hardcore" label="Early_hardcore" />
+      <node id="electronic_music" label="electronic_music" />
+      <node id="Future_house" label="Future_house" />
+      <node id="Australian_hip_hop" label="Australian_hip_hop" />
+      <node id="Indian_rock" label="Indian_rock" />
+      <node id="Filmi_qawwali" label="Filmi_qawwali" />
+      <node id="shock_rock" label="shock_rock" />
+      <node id="Eurodance" label="Eurodance" />
+      <node id="Latin_jazz" label="Latin_jazz" />
+      <node id="Bereznianka" label="Bereznianka" />
+      <node id="Kpanlogo" label="Kpanlogo" />
+      <node id="stoner_rock" label="stoner_rock" />
+      <node id="disco_polo" label="disco_polo" />
+      <node id="Tab" label="Tab" />
+      <node id="New_Mexico_music" label="New_Mexico_music" />
+      <node id="Seggae" label="Seggae" />
+      <node id="mass" label="mass" />
+      <node id="Famo" label="Famo" />
+      <node id="Christian_hardcore" label="Christian_hardcore" />
+      <node id="dark_wave" label="dark_wave" />
+      <node id="Chimurenga_music" label="Chimurenga_music" />
+      <node id="Anatolian_rock" label="Anatolian_rock" />
+      <node id="space_disco" label="space_disco" />
+      <node id="Boedra" label="Boedra" />
+    </nodes>
+    <edges>
+      <edge id="0" source="art_rock" target="rock_music" />
+      <edge id="1" source="Youth_crew" target="hardcore_punk" />
+      <edge id="2" source="folktronica" target="electronica" />
+      <edge id="3" source="folktronica" target="contemporary_folk_music" />
+      <edge id="4" source="smooth_jazz" target="jazz" />
+      <edge id="5" source="soul_jazz" target="jazz" />
+      <edge id="6" source="soul_jazz" target="soul_music" />
+      <edge id="7" source="funeral_doom_metal" target="doom_metal" />
+      <edge id="8" source="alternative_R&amp;B" target="contemporary_R&amp;B" />
+      <edge id="9" source="Louisiana_blues" target="blues" />
+      <edge id="10" source="dancehall" target="reggae" />
+      <edge id="11" source="Jumpstyle" target="electronic_dance_music" />
+      <edge id="12" source="hardcore_punk" target="punk_rock" />
+      <edge id="13" source="Hard_trance" target="trance" />
+      <edge id="14" source="progressive_death_metal" target="progressive_metal" />
+      <edge id="15" source="progressive_death_metal" target="death_metal" />
+      <edge id="16" source="Schranz" target="techno" />
+      <edge id="17" source="blues_metal" target="hard_rock" />
+      <edge id="18" source="blues_metal" target="blues_rock" />
+      <edge id="19" source="Progressive_Trance" target="trance" />
+      <edge id="20" source="epische_heavy_metal" target="heavy_metal_music" />
+      <edge id="21" source="East_Coast_hip_hop" target="hip_hop" />
+      <edge id="22" source="Coimbra_Fado" target="Fado" />
+      <edge id="23" source="rub-a-dub" target="dancehall" />
+      <edge id="24" source="jangle_pop" target="pop_rock" />
+      <edge id="25" source="metalcore" target="hardcore_punk" />
+      <edge id="26" source="metalcore" target="heavy_metal_music" />
+      <edge id="27" source="indie_pop" target="alternative_rock" />
+      <edge id="28" source="Miami_bass" target="hip_hop" />
+      <edge id="29" source="Samba_rock" target="samba" />
+      <edge id="30" source="psychedelic_trance" target="trance" />
+      <edge id="31" source="Shibuya-kei" target="yé-yé" />
+      <edge id="32" source="Shibuya-kei" target="J-pop" />
+      <edge id="33" source="Shibuya-kei" target="neo_acoustic" />
+      <edge id="34" source="Shibuya-kei" target="Japanese_jazz" />
+      <edge id="35" source="Shibuya-kei" target="baroque_pop" />
+      <edge id="36" source="Shibuya-kei" target="bossa_nova" />
+      <edge id="37" source="mainstream_hardcore" target="hardcore_techno" />
+      <edge id="38" source="g-funk" target="hip_hop" />
+      <edge id="39" source="Rock_en_español" target="rock_music" />
+      <edge id="40" source="post-rock" target="rock_music" />
+      <edge id="41" source="Future_garage" target="UK_garage" />
+      <edge id="42" source="Future_garage" target="dubstep" />
+      <edge id="43" source="country_blues" target="contemporary_folk_music" />
+      <edge id="44" source="country_blues" target="blues" />
+      <edge id="45" source="country_blues" target="country_music" />
+      <edge id="46" source="alternative_rock" target="rock_music" />
+      <edge id="47" source="jazz-funk" target="jazz" />
+      <edge id="48" source="chamber_pop" target="indie_pop" />
+      <edge id="49" source="Bakersfield_sound" target="country_music" />
+      <edge id="50" source="screamo" target="hardcore_punk" />
+      <edge id="51" source="progressive_bluegrass" target="bluegrass_music" />
+      <edge id="52" source="glam_rock" target="rock_music" />
+      <edge id="53" source="Denpa_song" target="J-pop" />
+      <edge id="54" source="Denpa_song" target="techno" />
+      <edge id="55" source="Denpa_song" target="Akiba-pop" />
+      <edge id="56" source="rawstyle" target="hardstyle" />
+      <edge id="57" source="progressive_folk_music" target="contemporary_folk_music" />
+      <edge id="58" source="acid_jazz" target="jazz" />
+      <edge id="59" source="glitch" target="electronic_music" />
+      <edge id="60" source="gospel_blues" target="blues" />
+      <edge id="61" source="gospel_blues" target="gospel_music" />
+      <edge id="62" source="hard_bop" target="jazz" />
+      <edge id="63" source="hardcore_ragga" target="dancehall" />
+      <edge id="64" source="happy_hardcore" target="hardcore_techno" />
+      <edge id="65" source="jazz_fusion" target="jazz" />
+      <edge id="66" source="Italo_disco" target="disco" />
+      <edge id="67" source="nerdcore" target="hip_hop" />
+      <edge id="68" source="nerdcore" target="nerd_music" />
+      <edge id="69" source="trip_hop" target="electronic_dance_music" />
+      <edge id="70" source="noise_pop" target="alternative_rock" />
+      <edge id="71" source="indie_folk" target="contemporary_folk_music" />
+      <edge id="72" source="Christian_hip_hop" target="hip_hop" />
+      <edge id="73" source="tech_house" target="house_music" />
+      <edge id="74" source="tech_house" target="techno" />
+      <edge id="75" source="rock_music" target="popular_music" />
+      <edge id="76" source="contemporary_classical_music" target="classical_music" />
+      <edge id="77" source="Ultra" target="post-punk" />
+      <edge id="78" source="Latin_pop" target="pop_music" />
+      <edge id="79" source="Latin_pop" target="Latin_American_music" />
+      <edge id="80" source="heavy_metal_music" target="rock_music" />
+      <edge id="81" source="Nordic_folk_music" target="folk_music" />
+      <edge id="82" source="technopop" target="pop_music" />
+      <edge id="83" source="technopop" target="techno" />
+      <edge id="84" source="UK_garage" target="electronic_music" />
+      <edge id="85" source="dark_metal" target="heavy_metal_music" />
+      <edge id="86" source="French_house" target="house_music" />
+      <edge id="87" source="Grindie" target="indie_rock" />
+      <edge id="88" source="Grindie" target="grindcore" />
+      <edge id="89" source="funk_metal" target="alternative_metal" />
+      <edge id="90" source="funk_metal" target="funk_rock" />
+      <edge id="91" source="Schlager" target="pop_music" />
+      <edge id="92" source="symphonic_metal" target="symphonic_rock" />
+      <edge id="93" source="symphonic_metal" target="heavy_metal_music" />
+      <edge id="94" source="avant-prog" target="progressive_rock" />
+      <edge id="95" source="avant-prog" target="avant-garde_music" />
+      <edge id="96" source="sludge_metal" target="hardcore_punk" />
+      <edge id="97" source="sludge_metal" target="doom_metal" />
+      <edge id="98" source="sludge_metal" target="Southern_rock" />
+      <edge id="99" source="experimental_dub" target="dub" />
+      <edge id="100" source="anarcho-punk" target="punk_rock" />
+      <edge id="101" source="soft_rock" target="rock_music" />
+      <edge id="102" source="J-Rock" target="rock_music" />
+      <edge id="103" source="bebop" target="jazz" />
+      <edge id="104" source="Worldbeat" target="pop_music" />
+      <edge id="105" source="Worldbeat" target="world_music" />
+      <edge id="106" source="Worldbeat" target="rock_music" />
+      <edge id="107" source="industrial_metal" target="hardcore_punk" />
+      <edge id="108" source="industrial_metal" target="thrash_metal" />
+      <edge id="109" source="Country_folk" target="contemporary_folk_music" />
+      <edge id="110" source="Country_folk" target="country_music" />
+      <edge id="111" source="vocal_jazz" target="jazz" />
+      <edge id="112" source="deathgrind" target="grindcore" />
+      <edge id="113" source="deathgrind" target="death_metal" />
+      <edge id="114" source="electro_house" target="house_music" />
+      <edge id="115" source="Underground_hip_hop" target="rapping" />
+      <edge id="116" source="New_Wave_of_British_Heavy_Metal" target="heavy_metal_music" />
+      <edge id="117" source="German_hip_hop" target="hip_hop" />
+      <edge id="118" source="Italian_hip_hop" target="hip_hop" />
+      <edge id="119" source="Wizard_rock" target="geek_rock" />
+      <edge id="120" source="indie_rock" target="rock_music" />
+      <edge id="121" source="soul_music" target="popular_music" />
+      <edge id="122" source="reggae_gospel" target="reggae" />
+      <edge id="123" source="reggae_gospel" target="gospel_music" />
+      <edge id="124" source="frat_rock" target="garage_rock" />
+      <edge id="125" source="math_rock" target="alternative_rock" />
+      <edge id="126" source="Time_Lord_rock" target="geek_rock" />
+      <edge id="127" source="C-pop" target="pop_music" />
+      <edge id="128" source="garage_rock" target="rock_music" />
+      <edge id="129" source="crust_punk" target="anarcho-punk" />
+      <edge id="130" source="Deathrock" target="punk_rock" />
+      <edge id="131" source="bitpop" target="chiptune" />
+      <edge id="132" source="Grime" target="dubstep" />
+      <edge id="133" source="dance-pop" target="pop_music" />
+      <edge id="134" source="dance-pop" target="dance_music" />
+      <edge id="135" source="turntablism" target="hip_hop" />
+      <edge id="136" source="Raggacore" target="Ragga_jungle" />
+      <edge id="137" source="free_jazz" target="jazz" />
+      <edge id="138" source="Negro_spiritual" target="American_folk_music" />
+      <edge id="139" source="klezmer" target="Jewish_music" />
+      <edge id="140" source="klezmer" target="world_music" />
+      <edge id="141" source="progressive_metal" target="heavy_metal_music" />
+      <edge id="142" source="free_rock" target="rock_music" />
+      <edge id="143" source="free_rock" target="free_jazz" />
+      <edge id="144" source="ambient_house" target="ambient_music" />
+      <edge id="145" source="ambient_house" target="house_music" />
+      <edge id="146" source="glitch_hop" target="glitch" />
+      <edge id="147" source="glitch_hop" target="hip_hop" />
+      <edge id="148" source="pagan_metal" target="heavy_metal_music" />
+      <edge id="149" source="comedy_rock" target="rock_music" />
+      <edge id="150" source="neo-classical_metal" target="classical_music" />
+      <edge id="151" source="neo-classical_metal" target="heavy_metal_music" />
+      <edge id="152" source="Neue_Deutsche_Welle" target="new_wave_music" />
+      <edge id="153" source="Neue_Deutsche_Welle" target="punk_rock" />
+      <edge id="154" source="American_folk_music" target="folk_music" />
+      <edge id="155" source="black_metal" target="heavy_metal_music" />
+      <edge id="156" source="pagan_folk_music" target="folk_music" />
+      <edge id="157" source="post-metal" target="shoegazing" />
+      <edge id="158" source="post-metal" target="heavy_metal_music" />
+      <edge id="159" source="post-metal" target="post-rock" />
+      <edge id="160" source="Madchester" target="electronic_music" />
+      <edge id="161" source="post-grunge" target="alternative_rock" />
+      <edge id="162" source="experimental_rock" target="rock_music" />
+      <edge id="163" source="Freak_metal" target="heavy_metal_music" />
+      <edge id="164" source="minimal_techno" target="techno" />
+      <edge id="165" source="extreme_metal" target="heavy_metal_music" />
+      <edge id="166" source="nu_metal" target="heavy_metal_music" />
+      <edge id="167" source="country_pop" target="pop_music" />
+      <edge id="168" source="country_pop" target="country_music" />
+      <edge id="169" source="phase_music" target="experimental_music" />
+      <edge id="170" source="reggae_fusion" target="reggae" />
+      <edge id="171" source="Oshare_kei" target="visual_kei" />
+      <edge id="172" source="sufi_rock" target="rock_music" />
+      <edge id="173" source="sunshine_pop" target="pop_music" />
+      <edge id="174" source="dubstep" target="UK_garage" />
+      <edge id="175" source="dub" target="reggae" />
+      <edge id="176" source="dub" target="electronic_music" />
+      <edge id="177" source="Neoclassical_Dark_Wave" target="dark_wave" />
+      <edge id="178" source="electronica" target="electronic_music" />
+      <edge id="179" source="folk_punk" target="folk_music" />
+      <edge id="180" source="folk_punk" target="punk_rock" />
+      <edge id="181" source="Dutch_house" target="house_music" />
+      <edge id="182" source="hardstyle" target="hardcore_techno" />
+      <edge id="183" source="sadcore" target="alternative_rock" />
+      <edge id="184" source="martial_industrial" target="industrial_music" />
+      <edge id="185" source="hip_hop" target="popular_music" />
+      <edge id="186" source="punk_rock" target="rock_music" />
+      <edge id="187" source="neo-progressive_rock" target="progressive_rock" />
+      <edge id="188" source="quiet_storm" target="contemporary_R&amp;B" />
+      <edge id="189" source="technical_death_metal" target="death_metal" />
+      <edge id="190" source="techno" target="electronic_dance_music" />
+      <edge id="191" source="freestyle_music" target="electronic_music" />
+      <edge id="192" source="rockabilly" target="rock_and_roll" />
+      <edge id="193" source="trip_rock" target="electronic_music" />
+      <edge id="194" source="Nederpop" target="pop_music" />
+      <edge id="195" source="pop_soul" target="pop_music" />
+      <edge id="196" source="pop_soul" target="soul_music" />
+      <edge id="197" source="pocky" target="UK_hard_house" />
+      <edge id="198" source="mainstream_jazz" target="jazz" />
+      <edge id="199" source="melodic_hardcore" target="hardcore_punk" />
+      <edge id="200" source="Dream_metal" target="heavy_metal_music" />
+      <edge id="201" source="Medieval_metal" target="folk_metal" />
+      <edge id="202" source="ambient_music" target="electronic_music" />
+      <edge id="203" source="Christian_punk" target="punk_rock" />
+      <edge id="204" source="Southern_hip_hop" target="hip_hop" />
+      <edge id="205" source="folk_rock" target="rock_music" />
+      <edge id="206" source="folk_rock" target="contemporary_folk_music" />
+      <edge id="207" source="goregrind" target="grindcore" />
+      <edge id="208" source="American_march_music" target="march" />
+      <edge id="209" source="rap_rock" target="rock_music" />
+      <edge id="210" source="doom_metal" target="acid_rock" />
+      <edge id="211" source="doom_metal" target="heavy_metal_music" />
+      <edge id="212" source="doom_metal" target="blues_rock" />
+      <edge id="213" source="deathcore" target="metalcore" />
+      <edge id="214" source="deathcore" target="death_metal" />
+      <edge id="215" source="nu-disco" target="house_music" />
+      <edge id="216" source="nu-disco" target="disco" />
+      <edge id="217" source="nerd-folk" target="contemporary_folk_music" />
+      <edge id="218" source="nerd-folk" target="nerd_music" />
+      <edge id="219" source="Lounge_rock" target="rock_music" />
+      <edge id="220" source="reggaeton" target="reggae" />
+      <edge id="221" source="estrade" target="popular_music" />
+      <edge id="222" source="ambient_dub" target="ambient_music" />
+      <edge id="223" source="ambient_dub" target="dub" />
+      <edge id="224" source="symphonic_rock" target="progressive_rock" />
+      <edge id="225" source="Western_swing" target="country_music" />
+      <edge id="226" source="kawaii_metal" target="heavy_metal_music" />
+      <edge id="227" source="Algerian_chaabi" target="chaabi" />
+      <edge id="228" source="rock_opera" target="opera" />
+      <edge id="229" source="rock_opera" target="rock_music" />
+      <edge id="230" source="punk_metal" target="hardcore_punk" />
+      <edge id="231" source="punk_metal" target="thrash_metal" />
+      <edge id="232" source="hip_house" target="house_music" />
+      <edge id="233" source="hip_house" target="rapping" />
+      <edge id="234" source="Afro-Cuban_jazz" target="Latin_jazz" />
+      <edge id="235" source="traditional_heavy_metal" target="heavy_metal_music" />
+      <edge id="236" source="operatic_pop" target="pop_music" />
+      <edge id="237" source="speed_garage" target="UK_garage" />
+      <edge id="238" source="acid_house" target="house_music" />
+      <edge id="239" source="alternative_hip_hop" target="hip_hop" />
+      <edge id="240" source="heartland_rock" target="rock_music" />
+      <edge id="241" source="lounge_music" target="popular_music" />
+      <edge id="242" source="trance" target="electronic_dance_music" />
+      <edge id="243" source="laïko" target="contemporary_folk_music" />
+      <edge id="244" source="Kölschrock" target="rock_music" />
+      <edge id="245" source="alternative_country" target="country_music" />
+      <edge id="246" source="post-punk" target="punk_rock" />
+      <edge id="247" source="Vaporwave" target="elevator_music" />
+      <edge id="248" source="cello_rock" target="rock_music" />
+      <edge id="249" source="nerd_punk" target="geek_rock" />
+      <edge id="250" source="nerd_punk" target="punk_rock" />
+      <edge id="251" source="Dirty_House" target="house_music" />
+      <edge id="252" source="electropop" target="pop_music" />
+      <edge id="253" source="intelligent_dance_music" target="electronic_music" />
+      <edge id="254" source="psychedelic_soul" target="soul_music" />
+      <edge id="255" source="Chicago_blues" target="blues" />
+      <edge id="256" source="gothic_rock" target="post-punk" />
+      <edge id="257" source="gothic_rock" target="alternative_rock" />
+      <edge id="258" source="folk_baroque" target="contemporary_folk_music" />
+      <edge id="259" source="avant-garde_metal" target="heavy_metal_music" />
+      <edge id="260" source="Downer_metal" target="heavy_metal_music" />
+      <edge id="261" source="Chassidische_Musik" target="Jewish_music" />
+      <edge id="262" source="Oi!" target="punk_rock" />
+      <edge id="263" source="contemporary_folk_music" target="popular_music" />
+      <edge id="264" source="freak_folk" target="contemporary_folk_music" />
+      <edge id="265" source="Hardtechno" target="techno" />
+      <edge id="266" source="Neurofunk" target="drum_and_bass" />
+      <edge id="267" source="alternative_dance" target="dance_music" />
+      <edge id="268" source="ragga_Pop" target="reggae" />
+      <edge id="269" source="Neo-glam" target="Britpop" />
+      <edge id="270" source="Nintendocore" target="nerd_music" />
+      <edge id="271" source="Nintendocore" target="chiptune" />
+      <edge id="272" source="Nintendocore" target="alternative_rock" />
+      <edge id="273" source="Norwegian_pop_music" target="pop_music" />
+      <edge id="274" source="reggada" target="contemporary_folk_music" />
+      <edge id="275" source="country_music" target="pop_music" />
+      <edge id="276" source="Chicago_house" target="house_music" />
+      <edge id="277" source="Mandopop" target="C-pop" />
+      <edge id="278" source="thrash_metal" target="heavy_metal_music" />
+      <edge id="279" source="J-pop" target="pop_music" />
+      <edge id="280" source="jazz" target="popular_music" />
+      <edge id="281" source="death_metal" target="heavy_metal_music" />
+      <edge id="282" source="Cyber_metal" target="heavy_metal_music" />
+      <edge id="283" source="Cyber_metal" target="speed_metal" />
+      <edge id="284" source="country_rock" target="rock_music" />
+      <edge id="285" source="country_rock" target="country_music" />
+      <edge id="286" source="progressive_house_music" target="house_music" />
+      <edge id="287" source="breakbeat" target="electronic_music" />
+      <edge id="288" source="hard_rock" target="rock_music" />
+      <edge id="289" source="futurepop" target="electronic_dance_music" />
+      <edge id="290" source="futurepop" target="electronic_body_music" />
+      <edge id="291" source="pop_rock" target="pop_music" />
+      <edge id="292" source="pop_rock" target="rock_music" />
+      <edge id="293" source="emo" target="post-hardcore" />
+      <edge id="294" source="neo_acoustic" target="punk_rock" />
+      <edge id="295" source="neo_acoustic" target="post-punk" />
+      <edge id="296" source="neo_acoustic" target="Shibuya-kei" />
+      <edge id="297" source="alternative_metal" target="heavy_metal_music" />
+      <edge id="298" source="alternative_metal" target="alternative_rock" />
+      <edge id="299" source="nu_skool_breaks" target="breakbeat" />
+      <edge id="300" source="Nu_jazz" target="jazz" />
+      <edge id="301" source="microhouse" target="house_music" />
+      <edge id="302" source="power_pop" target="pop_music" />
+      <edge id="303" source="power_pop" target="rock_music" />
+      <edge id="304" source="Roots_reggae" target="reggae" />
+      <edge id="305" source="Gangsta_rap" target="rapping" />
+      <edge id="306" source="Ranchera" target="Mariachi" />
+      <edge id="307" source="Pinoy_rock" target="rock_music" />
+      <edge id="308" source="vallenato" target="contemporary_folk_music" />
+      <edge id="309" source="early_dancehall" target="reggae" />
+      <edge id="310" source="traditional_bluegrass" target="bluegrass_music" />
+      <edge id="311" source="ska_punk" target="ska" />
+      <edge id="312" source="ska_punk" target="punk_rock" />
+      <edge id="313" source="Southern_soul" target="soul_music" />
+      <edge id="314" source="shoegazing" target="alternative_rock" />
+      <edge id="315" source="Witch_house" target="house_music" />
+      <edge id="316" source="Breakcore" target="hardcore_techno" />
+      <edge id="317" source="Cantopop" target="C-pop" />
+      <edge id="318" source="Skate_punk" target="punk_rock" />
+      <edge id="319" source="novelty_song" target="comedy_music" />
+      <edge id="320" source="Euro_disco" target="disco" />
+      <edge id="321" source="Norteño" target="contemporary_folk_music" />
+      <edge id="322" source="dream_pop" target="alternative_rock" />
+      <edge id="323" source="glam_metal" target="heavy_metal_music" />
+      <edge id="324" source="ragga" target="reggae" />
+      <edge id="325" source="ragga" target="dancehall" />
+      <edge id="326" source="new_wave_music" target="rock_music" />
+      <edge id="327" source="Sleaze_metal" target="heavy_metal_music" />
+      <edge id="328" source="cantiga_de_candomblé" target="Liturgical_music" />
+      <edge id="329" source="chiptune" target="electronic_music" />
+      <edge id="330" source="chiptune" target="nerd_music" />
+      <edge id="331" source="Moroccan_chaabi" target="chaabi" />
+      <edge id="332" source="Polka" target="dance_music" />
+      <edge id="333" source="parody_music" target="comedy_music" />
+      <edge id="334" source="New_York_hardcore" target="hardcore_punk" />
+      <edge id="335" source="experimental_hip_hop" target="experimental_music" />
+      <edge id="336" source="experimental_hip_hop" target="hip_hop" />
+      <edge id="337" source="pop_metal" target="heavy_metal_music" />
+      <edge id="338" source="progressive_rock" target="rock_music" />
+      <edge id="339" source="jazz_rap" target="hip_hop" />
+      <edge id="340" source="Kuduro" target="Soca_music" />
+      <edge id="341" source="Kuduro" target="techno" />
+      <edge id="342" source="Kuduro" target="Garage_house" />
+      <edge id="343" source="Kuduro" target="Zouk" />
+      <edge id="344" source="power_metal" target="heavy_metal_music" />
+      <edge id="345" source="power_metal" target="speed_metal" />
+      <edge id="346" source="geek_rock" target="rock_music" />
+      <edge id="347" source="geek_rock" target="nerd_music" />
+      <edge id="348" source="rapcore" target="rap_rock" />
+      <edge id="349" source="ethno_jazz" target="jazz" />
+      <edge id="350" source="New_prog" target="progressive_rock" />
+      <edge id="351" source="cool_jazz" target="jazz" />
+      <edge id="352" source="Street_punk" target="punk_rock" />
+      <edge id="353" source="Chap_hop" target="hip_hop" />
+      <edge id="354" source="Chap_hop" target="rapping" />
+      <edge id="355" source="Chap_hop" target="nerd_music" />
+      <edge id="356" source="avant-garde_jazz" target="jazz" />
+      <edge id="357" source="psychedelic_rock" target="rock_music" />
+      <edge id="358" source="dance-rock" target="rock_music" />
+      <edge id="359" source="dance-rock" target="dance_music" />
+      <edge id="360" source="Garage_house" target="house_music" />
+      <edge id="361" source="Western_music" target="American_folk_music" />
+      <edge id="362" source="beat_music" target="pop_music" />
+      <edge id="363" source="beat_music" target="rock_music" />
+      <edge id="364" source="Argentine_tango" target="tango" />
+      <edge id="365" source="sophisti-pop" target="pop_music" />
+      <edge id="366" source="Blackgaze" target="shoegazing" />
+      <edge id="367" source="Blackgaze" target="black_metal" />
+      <edge id="368" source="progressive_country" target="country_music" />
+      <edge id="369" source="nuevo_tango" target="tango" />
+      <edge id="370" source="power_electronics" target="electronic_music" />
+      <edge id="371" source="Britpop" target="pop_music" />
+      <edge id="372" source="Britpop" target="beat_music" />
+      <edge id="373" source="Britpop" target="power_pop" />
+      <edge id="374" source="Britpop" target="mod_revival" />
+      <edge id="375" source="blues_rock" target="rock_music" />
+      <edge id="376" source="blues_rock" target="blues" />
+      <edge id="377" source="German_punk" target="punk_rock" />
+      <edge id="378" source="instrumental_rock" target="rock_music" />
+      <edge id="379" source="tribe" target="techno" />
+      <edge id="380" source="house_music" target="electronic_dance_music" />
+      <edge id="381" source="electro_hop" target="hip_hop" />
+      <edge id="382" source="synthpop" target="pop_music" />
+      <edge id="383" source="synthpop" target="new_wave_music" />
+      <edge id="384" source="Rawck_metal" target="heavy_metal_music" />
+      <edge id="385" source="Dixieland" target="jazz" />
+      <edge id="386" source="Goa_trance" target="trance" />
+      <edge id="387" source="electro" target="funk" />
+      <edge id="388" source="electro" target="electronic_music" />
+      <edge id="389" source="Ragga_hip_hop" target="hip_hop" />
+      <edge id="390" source="Filin" target="jazz" />
+      <edge id="391" source="tribal_house" target="house_music" />
+      <edge id="392" source="folk_metal" target="heavy_metal_music" />
+      <edge id="393" source="emotional_hardcore" target="hardcore_punk" />
+      <edge id="394" source="electronic_body_music" target="dance_music" />
+      <edge id="395" source="electronic_body_music" target="industrial_music" />
+      <edge id="396" source="electronic_body_music" target="electronic_music" />
+      <edge id="397" source="Cowpunk" target="punk_rock" />
+      <edge id="398" source="post-bop" target="jazz" />
+      <edge id="399" source="post-bop" target="bebop" />
+      <edge id="400" source="death_n_roll" target="rock_and_roll" />
+      <edge id="401" source="death_n_roll" target="death_metal" />
+      <edge id="402" source="comedy_hip_hop" target="hip_hop" />
+      <edge id="403" source="Russian_rock" target="rock_music" />
+      <edge id="404" source="easy_listening" target="pop_music" />
+      <edge id="405" source="Mathcore" target="metalcore" />
+      <edge id="406" source="thrashcore" target="hardcore_punk" />
+      <edge id="407" source="thrashcore" target="thrash_metal" />
+      <edge id="408" source="bluegrass_music" target="country_music" />
+      <edge id="409" source="melodic_metalcore" target="metalcore" />
+      <edge id="410" source="Blatnaya_Pesnya" target="Russian_chanson" />
+      <edge id="411" source="dark_ambient" target="ambient_music" />
+      <edge id="412" source="Crunk" target="hip_hop" />
+      <edge id="413" source="oldschool_jungle" target="electronic_music" />
+      <edge id="414" source="death-doom" target="heavy_metal_music" />
+      <edge id="415" source="hardcore_techno" target="techno" />
+      <edge id="416" source="Yass" target="jazz" />
+      <edge id="417" source="electric_blues" target="jump_blues" />
+      <edge id="418" source="baroque_pop" target="easy_listening" />
+      <edge id="419" source="baroque_pop" target="pop_rock" />
+      <edge id="420" source="baroque_pop" target="Baroque_music" />
+      <edge id="421" source="college_rock" target="alternative_rock" />
+      <edge id="422" source="Southern_Gospel" target="gospel_music" />
+      <edge id="423" source="bubblegum_pop" target="pop_music" />
+      <edge id="424" source="bubblegum_pop" target="synthpop" />
+      <edge id="425" source="Early_Hardstyle" target="hardstyle" />
+      <edge id="426" source="jazzstep" target="drum_and_bass" />
+      <edge id="427" source="boogie_rock" target="rock_music" />
+      <edge id="428" source="deep_house" target="house_music" />
+      <edge id="429" source="crossover_thrash" target="thrash_metal" />
+      <edge id="430" source="rock_and_roll" target="popular_music" />
+      <edge id="431" source="electro-industrial" target="electro" />
+      <edge id="432" source="Carnatic_music" target="Indian_classical_music" />
+      <edge id="433" source="Piano_rock" target="rock_music" />
+      <edge id="434" source="psychedelic_pop" target="pop_music" />
+      <edge id="435" source="twee_pop" target="pop_music" />
+      <edge id="436" source="French_hip_hop" target="hip_hop" />
+      <edge id="437" source="electronic_dance_music" target="dance_music" />
+      <edge id="438" source="melodic_death_metal" target="death_metal" />
+      <edge id="439" source="skweee" target="chiptune" />
+      <edge id="440" source="skweee" target="funk" />
+      <edge id="441" source="electronic_rock" target="rock_music" />
+      <edge id="442" source="electronic_rock" target="electronic_music" />
+      <edge id="443" source="speed_metal" target="hardcore_punk" />
+      <edge id="444" source="speed_metal" target="Pub_rock" />
+      <edge id="445" source="speed_metal" target="heavy_metal_music" />
+      <edge id="446" source="Neue_Deutsche_Härte" target="hard_rock" />
+      <edge id="447" source="Neue_Deutsche_Härte" target="heavy_metal_music" />
+      <edge id="448" source="brutal_death_metal" target="death_metal" />
+      <edge id="449" source="slam_death_metal" target="brutal_death_metal" />
+      <edge id="450" source="Chant_de_Noël" target="Christmas_music" />
+      <edge id="451" source="electronicore" target="post-hardcore" />
+      <edge id="452" source="space_rock" target="rock_music" />
+      <edge id="453" source="pub_rock" target="rock_and_roll" />
+      <edge id="454" source="Nigun" target="Chassidische_Musik" />
+      <edge id="455" source="art_pop" target="pop_music" />
+      <edge id="456" source="Fidget_house" target="house_music" />
+      <edge id="457" source="Horrorcore" target="hip_hop" />
+      <edge id="458" source="downtempo" target="electronic_music" />
+      <edge id="459" source="drum_and_bass" target="electronic_music" />
+      <edge id="460" source="Midwest_hip_hop" target="hip_hop" />
+      <edge id="461" source="Europop" target="popular_music" />
+      <edge id="462" source="Frenchcore" target="hardcore_techno" />
+      <edge id="463" source="Liturgical_music" target="musique_religieuse" />
+      <edge id="464" source="bluegrass_gospel" target="gospel_music" />
+      <edge id="465" source="bluegrass_gospel" target="bluegrass_music" />
+      <edge id="466" source="pop_music" target="rock_and_roll" />
+      <edge id="467" source="pop_music" target="popular_music" />
+      <edge id="468" source="Italo_house" target="house_music" />
+      <edge id="469" source="Step_metal" target="heavy_metal_music" />
+      <edge id="470" source="Southern_rock" target="rock_music" />
+      <edge id="471" source="smooth_soul" target="pop_music" />
+      <edge id="472" source="smooth_soul" target="soul_music" />
+      <edge id="473" source="smooth_soul" target="funk" />
+      <edge id="474" source="Christmas_carol" target="Christmas_music" />
+      <edge id="475" source="yé-yé" target="pop_music" />
+      <edge id="476" source="Akiba-pop" target="J-pop" />
+      <edge id="477" source="grunge" target="rock_music" />
+      <edge id="478" source="Christian_rock" target="rock_music" />
+      <edge id="479" source="gothic_metal" target="heavy_metal_music" />
+      <edge id="480" source="Progressive_pop" target="pop_music" />
+      <edge id="481" source="electroclash" target="electronic_dance_music" />
+      <edge id="482" source="noise_rock" target="rock_music" />
+      <edge id="483" source="drone_music" target="electronic_music" />
+      <edge id="484" source="Minneapolis_sound" target="new_wave_music" />
+      <edge id="485" source="Minneapolis_sound" target="synthpop" />
+      <edge id="486" source="Minneapolis_sound" target="pop_music" />
+      <edge id="487" source="Minneapolis_sound" target="rock_music" />
+      <edge id="488" source="Minneapolis_sound" target="funk" />
+      <edge id="489" source="liquid_funk" target="drum_and_bass" />
+      <edge id="490" source="Punk_pathetique" target="punk_rock" />
+      <edge id="491" source="Latin_house" target="house_music" />
+      <edge id="492" source="pastorale" target="instrumental" />
+      <edge id="493" source="Sevdalinka" target="folk_music" />
+      <edge id="494" source="Delta_blues" target="blues" />
+      <edge id="495" source="smooth_reggae" target="pop_music" />
+      <edge id="496" source="smooth_reggae" target="reggae" />
+      <edge id="497" source="symphonic_black_metal" target="symphonic_metal" />
+      <edge id="498" source="symphonic_black_metal" target="black_metal" />
+      <edge id="499" source="Revival_punk" target="punk_rock" />
+      <edge id="500" source="acid_rock" target="psychedelic_rock" />
+      <edge id="501" source="breakbeat_hardcore" target="electronic_music" />
+      <edge id="502" source="teen_pop" target="pop_music" />
+      <edge id="503" source="mashup" target="pop_music" />
+      <edge id="504" source="African_Gospel" target="gospel_music" />
+      <edge id="505" source="UK_hard_house" target="house_music" />
+      <edge id="506" source="swing_music" target="jazz" />
+      <edge id="507" source="Krautrock" target="rock_music" />
+      <edge id="508" source="post-hardcore" target="punk_rock" />
+      <edge id="509" source="shock_rock" target="rock_music" />
+      <edge id="510" source="Latin_jazz" target="jazz" />
+      <edge id="511" source="Latin_jazz" target="Latin_music" />
+      <edge id="512" source="disco_polo" target="Euro_disco" />
+      <edge id="513" source="Tab" target="Andalusian_classical_music" />
+      <edge id="514" source="mass" target="religious_music" />
+      <edge id="515" source="dark_wave" target="new_wave_music" />
+      <edge id="516" source="space_disco" target="disco" />
+    </edges>
+  </graph>
+</gexf>
