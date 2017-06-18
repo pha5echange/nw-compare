@@ -1,12 +1,13 @@
-# nw_compare_a05.py
-# Version a05
+# nw_compare_a07.py
+# Version a07
 # by jmg - j.gagen*AT*gold*DOT*ac*DOT*uk
-# May 30th 2017
+# Jun 13th 2017
 
 # Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
 # Builds networks from input GEXFs, then removes nodes based on inclusion-lists
 # Builds both EchoNest and Wikidata networks and compares
+# Utilises omegaYear input to facilitate temporal-category anayses
 # This version applies different analyses for undirected and directed graphs
 # Writes modularity/community files to `results/communities' when graph is undirected
 
@@ -26,7 +27,7 @@ from networkx.algorithms.approximation import clique
 from collections import OrderedDict
 from datetime import datetime
 
-versionNumber = ("a05")
+versionNumber = ("a07")
 
 # Initiate timing of run
 runDate = datetime.now()
@@ -54,38 +55,52 @@ if not os.path.exists("results/communities"):
 if not os.path.exists("networks"):
     os.makedirs("networks")
 
-# Open file for writing log
-logPath = os.path.join("logs", 'nw_compare_' + versionNumber  + '_' + str(runDate) + '_' + str(startTime) + '_log.txt')
-runLog = open(logPath, 'a')
-
 # Begin
 print ('\n' + "Network Comparison Thing | Version " + versionNumber + " | Starting...")
+
+# Get user input
+print
+try:
+	dateIP = int(input ("Enter an omega year for this run (`2015' if unsure): "))
+except:
+	pass
+
+if dateIP == 0:
+	dateIP = 2015
+
+omegaYear = str(dateIP)
+
+# Open file for writing log
+logPath = os.path.join("logs", omegaYear + '_nw_compare_' + versionNumber  + '_' + str(runDate) + '_log.txt')
+runLog = open(logPath, 'a')
+
+
 runLog.write ("==========================================================================" + '\n' + '\n')
 runLog.write ("Network Comparison Thing | Version " + versionNumber + '\n' + '\n')
 
 # Open files for writing gexfs
-wikiGexfPath = os.path.join("gexf", 'nw_compare_wiki_' + versionNumber + '.gexf')
+wikiGexfPath = os.path.join("gexf", omegaYear + '_nw_compare_wiki_' + versionNumber + '.gexf')
 wikiGexfFile = open(wikiGexfPath, 'w')
 
-echoGexfPath = os.path.join("gexf", 'nw_compare_echo_' + versionNumber + '.gexf')
+echoGexfPath = os.path.join("gexf", omegaYear + '_nw_compare_echo_' + versionNumber + '.gexf')
 echoGexfFile = open(echoGexfPath, 'w')
 
 # Open file for `communities' ouput files
-wikiCommPath = os.path.join("results/communities", 'nw_compare_wiki_' + versionNumber + '_' + str(runDate) + '_' + str(startTime) + '_communities.txt')
+wikiCommPath = os.path.join("results/communities", omegaYear + '_nw_compare_wiki_' + versionNumber + '_' + str(runDate) + '_communities.txt')
 wikiCommFile = open(wikiCommPath, 'w')
 
-echoCommPath = os.path.join("results/communities", 'nw_compare_echo_' + versionNumber + '_' + str(runDate) + '_' + str(startTime) + '_communities.txt')
+echoCommPath = os.path.join("results/communities", omegaYear + '_nw_compare_echo_' + versionNumber + '_' + str(runDate) + '_communities.txt')
 echoCommFile = open(echoCommPath, 'w')
 
 # Open file for analysis results
-anPath = os.path.join("results/analysis", 'nw_compare_' + versionNumber  + '_' + str(runDate) + '_' + str(startTime) + '_analysis.txt')
+anPath = os.path.join("results/analysis", omegaYear + '_nw_compare_' + versionNumber  + '_' + str(runDate) + '_analysis.txt')
 anFile = open(anPath, 'w')
 
 # Open files to write images
-wikiImgPath = os.path.join("networks", 'nw_compare_wiki_' + versionNumber + '_nw.eps')
+wikiImgPath = os.path.join("networks", omegaYear + '_nw_compare_wiki_' + versionNumber + '_nw.eps')
 wikiImg = open (wikiImgPath, 'w')
 
-echoImgPath = os.path.join("networks", 'nw_compare_echo_' + versionNumber + '_nw.eps')
+echoImgPath = os.path.join("networks", omegaYear + '_nw_compare_echo_' + versionNumber + '_nw.eps')
 echoImg = open (echoImgPath, 'w')
 
 anFile.write ("==========================================================================" + '\n' + '\n')
@@ -116,6 +131,7 @@ wikiNodeList.sort()
 wikiSelfLoopTotal = wikiNW.number_of_selfloops()
 wikiConnections = wikiEdges - wikiSelfLoopTotal
 
+print ("Omega Year: " + omegaYear)
 print ('Wiki Nodes: ' + str(wikiNodes))
 print ('Wiki Edges: ' + str(wikiEdges))
 print ('Wiki Self-loops: ' + str(wikiSelfLoopTotal))
@@ -127,6 +143,7 @@ print
 print (str(wikiNodeList))
 
 anFile.write ('Network Properties: ' + '\n' + '\n')
+anFile.write ("Omega Year: " + omegaYear + '\n')
 anFile.write ('Wiki Nodes: ' + str(wikiNodes) + '\n')
 anFile.write ('Wiki Edges: ' + str(wikiEdges) + '\n')
 anFile.write ('Wiki Self-loops: ' + str(wikiSelfLoopTotal) + '\n')
@@ -134,6 +151,7 @@ anFile.write ('Wiki Connections (edges minus self-loops): ' + str(wikiConnection
 anFile.write ('Wiki Density: ' + str(wikiDensity) + '\n' + '\n')
 anFile.write (str(nx.info(wikiNW)) + '\n' + '\n')
 
+runLog.write ("Omega Year: " + omegaYear + '\n' + '\n')
 runLog.write ('Wiki nodes: ' + '\n' + '\n')
 runLog.write (str(wikiNodeList) + '\n' + '\n')
 
@@ -148,6 +166,7 @@ echoNodeList.sort()
 echoSelfLoopTotal = echoNW.number_of_selfloops()
 echoConnections = echoEdges - echoSelfLoopTotal
 
+print ("Omega Year: " + omegaYear)
 print ('Echo Nodes: ' + str(echoNodes))
 print ('Echo Edges: ' + str(echoEdges))
 print ('Echo Self-loops: ' + str(echoSelfLoopTotal))
@@ -159,6 +178,7 @@ print
 print (str(echoNodeList))
 
 anFile.write ('Network Properties: ' + '\n' + '\n')
+anFile.write ("Omega Year: " + omegaYear + '\n')
 anFile.write ('Echo Nodes: ' + str(echoNodes) + '\n')
 anFile.write ('Echo Edges: ' + str(echoEdges) + '\n')
 anFile.write ('Echo Self-loops: ' + str(echoSelfLoopTotal) + '\n')
@@ -175,8 +195,9 @@ wikiRemovedCount = 0
 print ('\n' + 'Checking list and removing wiki nodes...' + '\n')
 runLog.write ('Checking list and removing wiki nodes...' + '\n' + '\n')
 anFile.write ('Checking list and removing wiki nodes...' + '\n' + '\n')
+# anFile.write ('\n' + "Removed Wiki Nodes: " + '\n')
 
-wikiListPath = os.path.join("inclusion-lists", 'wiki_inclusion_list.txt')
+wikiListPath = os.path.join("inclusion-lists", omegaYear + '_wiki_inclusion_list.txt')
 wikiList = open(wikiListPath, 'r')
 wikiIncludeNodes = [line.strip() for line in wikiList]
 
@@ -185,6 +206,7 @@ for i in wikiNodeList:
 		wikiNW.remove_node(i) 
 		print ('Removed wiki node ' + str(i))
 		runLog.write ('Removed wiki node ' + str(i) + '\n')
+		# anFile.write (str(i) + '\n')
 		wikiRemovedCount += 1
 
 print ('\n'+ "Removed " + str(wikiRemovedCount) + " wiki nodes. " + '\n')
@@ -196,16 +218,18 @@ echoRemovedCount = 0
 print ('\n' + 'Checking list and removing echo nodes...' + '\n')
 runLog.write ('Checking list and removing echo nodes...' + '\n' + '\n')
 anFile.write ('Checking list and removing echo nodes...' + '\n' + '\n')
+# anFile.write ('\n' + "Removed Echo Nodes: " + '\n')
 
-echoListPath = os.path.join("inclusion-lists", 'echo_inclusion_list.txt')
+echoListPath = os.path.join("inclusion-lists", omegaYear + '_echo_inclusion_list.txt')
 echoList = open(echoListPath, 'r')
-echoIncludeNodes = [line.strip() for line in echoList]
+echoIncludeNodes = ['2015_' + line.strip() for line in echoList]
 
 for i in echoNodeList:
 	if not i in echoIncludeNodes:
 		echoNW.remove_node(i) 
 		print ('Removed echo node ' + str(i))
 		runLog.write ('Removed echo node ' + str(i) + '\n')
+		# anFile.write (str(i) + '\n')
 		echoRemovedCount += 1
 
 print ('\n'+ "Removed " + str(echoRemovedCount) + " echo nodes. " + '\n')
@@ -231,7 +255,7 @@ print
 print (str(wikiNodeList))
 print
 
-anFile.write ('\n' + 'New Network Properties: ' + '\n' + '\n')
+anFile.write ('\n' + '\n' + 'New Network Properties: ' + '\n' + '\n')
 anFile.write ('Wiki Nodes: ' + str(wikiNodes) + '\n')
 anFile.write ('Wiki Edges: ' + str(wikiEdges) + '\n')
 anFile.write ('Wiki Self-loops: ' + str(wikiSelfLoopTotal) + '\n')
@@ -390,7 +414,7 @@ print ('Wiki Connections (edges minus self-loops): ' + str(wikiConnections))
 print ('Wiki Density: ' + str(wikiDensity))
 print
 
-anFile.write ('New New Network Properties: ' + '\n' + '\n')
+anFile.write ('Final Network Properties: ' + '\n' + '\n')
 anFile.write ('Wiki Nodes: ' + str(wikiNodes) + '\n')
 anFile.write ('Wiki Isolates: ' + str(wikiIsolateCount) + '\n')
 anFile.write ('Wiki Edges: ' + str(wikiEdges) + '\n')
@@ -416,7 +440,7 @@ print ('Echo Connections (edges minus self-loops): ' + str(echoConnections))
 print ('Echo Density: ' + str(echoDensity))
 print
 
-anFile.write ('New New Network Properties: ' + '\n' + '\n')
+anFile.write ('Final Network Properties: ' + '\n' + '\n')
 anFile.write ('Echo Nodes: ' + str(echoNodes) + '\n')
 anFile.write ('Echo Isolates: ' + str(echoIsolateCount) + '\n')
 anFile.write ('Echo Edges: ' + str(echoEdges) + '\n')
@@ -525,39 +549,33 @@ print ("Wiki Isolates: " + str(wikiIsolateCount))
 print ("Wiki Edges: " + str(wikiEdges))
 print ("Wiki Density: " + str(wikiDensity))
 print ("Wiki Maximal degree: " + str(wikiMaxDeg))
-
-if wikiAvClustering != 0:
-	print ("Wiki modularity: " + str(wikiMod))
-	print ('Wiki Average Clustering Coefficient: ' + str(wikiAvClustering))
-	print ('Wiki Connected Components: ' + str(wikiConnectComp))
-else:
-	print ("Source nodes: " + str(wikiSourceCount))
-	print ("Sink nodes: " + str(wikiSinkCount))
-
+print ("Wiki modularity: " + str(wikiMod))
+print ('Wiki Average Clustering Coefficient: ' + str(wikiAvClustering))
+print ('Wiki Connected Components: ' + str(wikiConnectComp))
+print ("Source nodes: " + str(wikiSourceCount))
+print ("Sink nodes: " + str(wikiSinkCount))
 print
 
 anFile.write ('\n' + 'Wiki Network Properties: ' + '\n' + '\n')
-anFile.write("Wiki graph is " + wikiIsDigraph + '\n')
+anFile.write ("Omega Year: " + omegaYear + '\n')
+anFile.write ("Wiki graph is " + wikiIsDigraph + '\n')
 anFile.write ('Wiki Nodes: ' + str(wikiNodes) + '\n')
 anFile.write ('Wiki Isolates: ' + str(wikiIsolateCount) + '\n')
 anFile.write ('Wiki Edges: ' + str(wikiEdges) + '\n')
 anFile.write ('Wiki Density: ' + str(wikiDensity) + '\n')
 anFile.write ('Wiki Maximal degree: ' + str(wikiMaxDeg) + '\n')
+anFile.write ("Wiki modularity: " + str(wikiMod) + '\n')
+anFile.write ('Wiki Average Clustering Coefficient: ' + str(wikiAvClustering) + '\n')
+anFile.write ('Wiki Connected Components: ' + str(wikiConnectComp) + '\n')
+anFile.write ("Source nodes: " + str(wikiSourceCount) + '\n')
+anFile.write ("Sink nodes: " + str(wikiSinkCount) + '\n' + '\n')
 
-if wikiAvClustering != 0:
-	anFile.write ("Wiki modularity: " + str(wikiMod) + '\n')
-
-	for key,value in wikiPart.items():
-		wikiCommFile.write(key + "," + str(value) + '\n')
-
-	anFile.write ('Wiki Average Clustering Coefficient: ' + str(wikiAvClustering) + '\n')
-	anFile.write ('Wiki Connected Components: ' + str(wikiConnectComp) + '\n')
-else:
-	anFile.write ("Source nodes: " + str(wikiSourceCount) + '\n')
-	anFile.write ("Sink nodes: " + str(wikiSinkCount) + '\n')
+for key,value in wikiPart.items():
+	wikiCommFile.write(key + "," + str(value) + '\n')
 
 anFile.write ('\n' + 'Confirmation: ' + '\n' + str(nx.info(wikiNW)) + '\n')
 
+runLog.write ("Omega Year: " + omegaYear + '\n' + '\n')
 runLog.write('\n' + "Wiki graph is " + wikiIsDigraph + '\n')
 runLog.write ('\n' + "Properties: " + '\n' + str(nx.info(wikiNW)) + '\n')
 
@@ -591,36 +609,30 @@ print ('Echo Isolates: ' + str(echoIsolateCount))
 print ('Echo Edges: ' + str(echoEdges))
 print ('Echo Density: ' + str(echoDensity))
 print ('Echo Maximal degree: ' + str(echoMaxDeg))
-
-if echoAvClustering != 0:
-	print ("Echo modularity: " + str(echoMod))
-	print ('Echo Average Clustering Coefficient: ' + str(echoAvClustering))
-	print ('Echo Connected Components: ' + str(echoConnectComp))
-else:
-	print ("Source nodes: " + str(echoSourceCount))
-	print ("Sink nodes: " + str(echoSinkCount))
-
+print ("Echo modularity: " + str(echoMod))
+print ('Echo Average Clustering Coefficient: ' + str(echoAvClustering))
+print ('Echo Connected Components: ' + str(echoConnectComp))
+print ("Source nodes: " + str(echoSourceCount))
+print ("Sink nodes: " + str(echoSinkCount))
 print
 
 anFile.write ('\n' + 'Echo Network Properties: ' + '\n' + '\n')
+anFile.write ("Omega Year: " + omegaYear + '\n')
 anFile.write("Echo graph is " + echoIsDigraph + '\n')
 anFile.write ('Echo Nodes: ' + str(echoNodes) + '\n')
 anFile.write ('Echo Isolates: ' + str(echoIsolateCount) + '\n')
 anFile.write ('Echo Edges: ' + str(echoEdges) + '\n')
 anFile.write ('Echo Density: ' + str(echoDensity) + '\n')
 anFile.write ('Echo Maximal degree: ' + str(echoMaxDeg) + '\n')
+anFile.write ("Echo modularity: " + str(echoMod) + '\n')
+anFile.write ('Echo Average Clustering Coefficient: ' + str(echoAvClustering) + '\n')
+anFile.write ('Echo Connected Components: ' + str(echoConnectComp) + '\n')
+anFile.write ("Source nodes: " + str(echoSourceCount) + '\n')
+anFile.write ("Sink nodes: " + str(echoSinkCount) + '\n' + '\n')
 
-if echoAvClustering != 0:
-	anFile.write ("Echo modularity: " + str(echoMod) + '\n')
-
-	for key,value in echoPart.items():
-		echoCommFile.write(key + "," + str(value) + '\n')
-
-	anFile.write ('Echo Average Clustering Coefficient: ' + str(echoAvClustering) + '\n')
-	anFile.write ('Echo Connected Components: ' + str(echoConnectComp) + '\n')
-else:
-	anFile.write ("Source nodes: " + str(echoSourceCount) + '\n')
-	anFile.write ("Sink nodes: " + str(echoSinkCount) + '\n')
+for key,value in echoPart.items():
+	genLabel = key.replace("2015_", omegaYear + '_')
+	echoCommFile.write(genLabel + "," + str(value) + '\n')
 
 anFile.write ('\n' + 'Confirmation: ' + '\n' + str(nx.info(echoNW)))
 anFile.close()
@@ -632,9 +644,11 @@ runLog.write ('\n' + "Properties: " + '\n' + str(nx.info(echoNW)) + '\n')
 endTime = datetime.now()
 
 print
+print ("Omega Year: " + omegaYear + '\n')
 print ('Date of run: {}'.format(runDate))
 print ('Duration of run : {}'.format(endTime - startTime))
 
+runLog.write ("Omega Year: " + omegaYear + '\n' + '\n')
 runLog.write ('\n' + '\n' + 'Date of run: {}'.format(runDate) + '\n')
 runLog.write ('Duration of run : {}'.format(endTime - startTime) + '\n')
 runLog.close()
