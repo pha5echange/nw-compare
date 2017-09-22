@@ -1,7 +1,7 @@
-# nw_compare_a07.py
-# Version a07
+# nw_compare_a08.py
+# Version a08
 # by jmg - j.gagen*AT*gold*DOT*ac*DOT*uk
-# Jun 13th 2017
+# Sep 22nd 2017
 
 # Licence: http://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -27,7 +27,7 @@ from networkx.algorithms.approximation import clique
 from collections import OrderedDict
 from datetime import datetime
 
-versionNumber = ("a07")
+versionNumber = ("a08")
 
 # Initiate timing of run
 runDate = datetime.now()
