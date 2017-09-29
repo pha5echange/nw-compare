@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="totalArtists" type="string" />
+      <attribute id="1" title="incepDate" type="string" />
+    </attributes>
+    <nodes>
+      <node id="1919_avant-garde" label="1919_avant-garde">
+        <attvalues>
+          <attvalue for="0" value="39" />
+          <attvalue for="1" value="1899" />
+        </attvalues>
+      </node>
+      <node id="1919_romantic" label="1919_romantic">
+        <attvalues>
+          <attvalue for="0" value="144" />
+          <attvalue for="1" value="1734" />
+        </attvalues>
+      </node>
+      <node id="1919_swing" label="1919_swing">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="1906" />
+        </attvalues>
+      </node>
+      <node id="1919_early_music" label="1919_early_music">
+        <attvalues>
+          <attvalue for="0" value="53" />
+          <attvalue for="1" value="1490" />
+        </attvalues>
+      </node>
+      <node id="1919_modern_classical" label="1919_modern_classical">
+        <attvalues>
+          <attvalue for="0" value="41" />
+          <attvalue for="1" value="1899" />
+        </attvalues>
+      </node>
+      <node id="1919_tin_pan_alley" label="1919_tin_pan_alley">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="1898" />
+        </attvalues>
+      </node>
+      <node id="1919_oratory" label="1919_oratory">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="1909" />
+        </attvalues>
+      </node>
+      <node id="1919_vintage_country_folk" label="1919_vintage_country_folk">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="1912" />
+        </attvalues>
+      </node>
+      <node id="1919_classical_organ" label="1919_classical_organ">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="1864" />
+        </attvalues>
+      </node>
+      <node id="1919_classical_piano" label="1919_classical_piano">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="1906" />
+        </attvalues>
+      </node>
+      <node id="1919_reading" label="1919_reading">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="1879" />
+        </attvalues>
+      </node>
+      <node id="1919_renaissance" label="1919_renaissance">
+        <attvalues>
+          <attvalue for="0" value="50" />
+          <attvalue for="1" value="1490" />
+        </attvalues>
+      </node>
+      <node id="1919_classical_performance" label="1919_classical_performance">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="1906" />
+        </attvalues>
+      </node>
+      <node id="1919_classical_period" label="1919_classical_period">
+        <attvalues>
+          <attvalue for="0" value="102" />
+          <attvalue for="1" value="1734" />
+        </attvalues>
+      </node>
+      <node id="1919_piano_blues" label="1919_piano_blues">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="1914" />
+        </attvalues>
+      </node>
+      <node id="1919_serialism" label="1919_serialism">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="1912" />
+        </attvalues>
+      </node>
+      <node id="1919_baroque" label="1919_baroque">
+        <attvalues>
+          <attvalue for="0" value="105" />
+          <attvalue for="1" value="1622" />
+        </attvalues>
+      </node>
+      <node id="1919_cabaret" label="1919_cabaret">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="1906" />
+        </attvalues>
+      </node>
+      <node id="1919_jazz_christmas" label="1919_jazz_christmas">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1919" />
+        </attvalues>
+      </node>
+      <node id="1919_classical_christmas" label="1919_classical_christmas">
+        <attvalues>
+          <attvalue for="0" value="90" />
+          <attvalue for="1" value="1734" />
+        </attvalues>
+      </node>
+      <node id="1919_orchestral" label="1919_orchestral">
+        <attvalues>
+          <attvalue for="0" value="26" />
+          <attvalue for="1" value="1891" />
+        </attvalues>
+      </node>
+      <node id="1919_classical" label="1919_classical">
+        <attvalues>
+          <attvalue for="0" value="138" />
+          <attvalue for="1" value="1734" />
+        </attvalues>
+      </node>
+      <node id="1919_composition_d" label="1919_composition_d">
+        <attvalues>
+          <attvalue for="0" value="77" />
+          <attvalue for="1" value="1824" />
+        </attvalues>
+      </node>
+      <node id="1919_light_music" label="1919_light_music">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="1895" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1919_avant-garde" target="1919_serialism" weight="11.0" />
+      <edge id="1" source="1919_romantic" target="1919_tin_pan_alley" weight="1.0" />
+      <edge id="2" source="1919_romantic" target="1919_avant-garde" weight="30.0" />
+      <edge id="3" source="1919_romantic" target="1919_composition_d" weight="8.0" />
+      <edge id="4" source="1919_romantic" target="1919_classical_organ" weight="2.0" />
+      <edge id="5" source="1919_romantic" target="1919_serialism" weight="5.0" />
+      <edge id="6" source="1919_romantic" target="1919_orchestral" weight="1.0" />
+      <edge id="7" source="1919_romantic" target="1919_classical_piano" weight="1.0" />
+      <edge id="8" source="1919_romantic" target="1919_light_music" weight="1.0" />
+      <edge id="9" source="1919_romantic" target="1919_classical_performance" weight="1.0" />
+      <edge id="10" source="1919_romantic" target="1919_modern_classical" weight="29.0" />
+      <edge id="11" source="1919_swing" target="1919_piano_blues" weight="1.0" />
+      <edge id="12" source="1919_swing" target="1919_jazz_christmas" weight="5.0" />
+      <edge id="13" source="1919_early_music" target="1919_avant-garde" weight="1.0" />
+      <edge id="14" source="1919_early_music" target="1919_classical_christmas" weight="17.0" />
+      <edge id="15" source="1919_early_music" target="1919_classical" weight="22.0" />
+      <edge id="16" source="1919_early_music" target="1919_romantic" weight="6.0" />
+      <edge id="17" source="1919_early_music" target="1919_baroque" weight="26.0" />
+      <edge id="18" source="1919_early_music" target="1919_classical_period" weight="6.0" />
+      <edge id="19" source="1919_modern_classical" target="1919_serialism" weight="14.0" />
+      <edge id="20" source="1919_tin_pan_alley" target="1919_swing" weight="5.0" />
+      <edge id="21" source="1919_tin_pan_alley" target="1919_jazz_christmas" weight="2.0" />
+      <edge id="22" source="1919_tin_pan_alley" target="1919_cabaret" weight="5.0" />
+      <edge id="23" source="1919_vintage_country_folk" target="1919_piano_blues" weight="2.0" />
+      <edge id="24" source="1919_renaissance" target="1919_avant-garde" weight="1.0" />
+      <edge id="25" source="1919_renaissance" target="1919_classical_christmas" weight="16.0" />
+      <edge id="26" source="1919_renaissance" target="1919_classical" weight="20.0" />
+      <edge id="27" source="1919_renaissance" target="1919_romantic" weight="5.0" />
+      <edge id="28" source="1919_renaissance" target="1919_baroque" weight="24.0" />
+      <edge id="29" source="1919_renaissance" target="1919_classical_period" weight="5.0" />
+      <edge id="30" source="1919_classical_period" target="1919_avant-garde" weight="1.0" />
+      <edge id="31" source="1919_classical_period" target="1919_composition_d" weight="3.0" />
+      <edge id="32" source="1919_classical_period" target="1919_serialism" weight="1.0" />
+      <edge id="33" source="1919_classical_period" target="1919_modern_classical" weight="2.0" />
+      <edge id="34" source="1919_piano_blues" target="1919_jazz_christmas" weight="4.0" />
+      <edge id="35" source="1919_baroque" target="1919_avant-garde" weight="2.0" />
+      <edge id="36" source="1919_baroque" target="1919_classical_christmas" weight="37.0" />
+      <edge id="37" source="1919_baroque" target="1919_classical_organ" weight="1.0" />
+      <edge id="38" source="1919_baroque" target="1919_classical" weight="45.0" />
+      <edge id="39" source="1919_baroque" target="1919_romantic" weight="29.0" />
+      <edge id="40" source="1919_baroque" target="1919_modern_classical" weight="1.0" />
+      <edge id="41" source="1919_baroque" target="1919_classical_period" weight="37.0" />
+      <edge id="42" source="1919_cabaret" target="1919_jazz_christmas" weight="2.0" />
+      <edge id="43" source="1919_classical_christmas" target="1919_avant-garde" weight="14.0" />
+      <edge id="44" source="1919_classical_christmas" target="1919_composition_d" weight="6.0" />
+      <edge id="45" source="1919_classical_christmas" target="1919_serialism" weight="1.0" />
+      <edge id="46" source="1919_classical_christmas" target="1919_orchestral" weight="8.0" />
+      <edge id="47" source="1919_classical_christmas" target="1919_classical_piano" weight="1.0" />
+      <edge id="48" source="1919_classical_christmas" target="1919_classical_performance" weight="5.0" />
+      <edge id="49" source="1919_classical_christmas" target="1919_modern_classical" weight="14.0" />
+      <edge id="50" source="1919_orchestral" target="1919_classical_piano" weight="1.0" />
+      <edge id="51" source="1919_orchestral" target="1919_classical_performance" weight="11.0" />
+      <edge id="52" source="1919_classical" target="1919_tin_pan_alley" weight="1.0" />
+      <edge id="53" source="1919_classical" target="1919_avant-garde" weight="30.0" />
+      <edge id="54" source="1919_classical" target="1919_composition_d" weight="5.0" />
+      <edge id="55" source="1919_classical" target="1919_classical_organ" weight="1.0" />
+      <edge id="56" source="1919_classical" target="1919_serialism" weight="5.0" />
+      <edge id="57" source="1919_classical" target="1919_orchestral" weight="1.0" />
+      <edge id="58" source="1919_classical" target="1919_classical_piano" weight="2.0" />
+      <edge id="59" source="1919_classical" target="1919_classical_performance" weight="2.0" />
+      <edge id="60" source="1919_classical" target="1919_modern_classical" weight="28.0" />
+      <edge id="61" source="1919_composition_d" target="1919_avant-garde" weight="5.0" />
+      <edge id="62" source="1919_composition_d" target="1919_classical_organ" weight="1.0" />
+      <edge id="63" source="1919_composition_d" target="1919_light_music" weight="6.0" />
+      <edge id="64" source="1919_composition_d" target="1919_serialism" weight="4.0" />
+      <edge id="65" source="1919_composition_d" target="1919_modern_classical" weight="7.0" />
+    </edges>
+  </graph>
+</gexf>
