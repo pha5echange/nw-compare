@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="totalArtists" type="string" />
+      <attribute id="1" title="incepDate" type="string" />
+    </attributes>
+    <nodes>
+      <node id="1920_blues" label="1920_blues">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1913" />
+        </attvalues>
+      </node>
+      <node id="1920_20thcentury" label="1920_20thcentury">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1915" />
+        </attvalues>
+      </node>
+      <node id="1920_classicalcomposer" label="1920_classicalcomposer">
+        <attvalues>
+          <attvalue for="0" value="356" />
+          <attvalue for="1" value="1480" />
+        </attvalues>
+      </node>
+      <node id="1920_orchestra" label="1920_orchestra">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="1842" />
+        </attvalues>
+      </node>
+      <node id="1920_tango" label="1920_tango">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="1913" />
+        </attvalues>
+      </node>
+      <node id="1920_classical" label="1920_classical">
+        <attvalues>
+          <attvalue for="0" value="311" />
+          <attvalue for="1" value="1571" />
+        </attvalues>
+      </node>
+      <node id="1920_jazz" label="1920_jazz">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1920" />
+        </attvalues>
+      </node>
+      <node id="1920_opera" label="1920_opera">
+        <attvalues>
+          <attvalue for="0" value="26" />
+          <attvalue for="1" value="1823" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1920_classicalcomposer" target="1920_classical" weight="263.0" />
+      <edge id="1" source="1920_classicalcomposer" target="1920_orchestra" weight="4.0" />
+      <edge id="2" source="1920_classicalcomposer" target="1920_20thcentury" weight="7.0" />
+      <edge id="3" source="1920_classicalcomposer" target="1920_jazz" weight="1.0" />
+      <edge id="4" source="1920_classicalcomposer" target="1920_opera" weight="25.0" />
+      <edge id="5" source="1920_orchestra" target="1920_20thcentury" weight="2.0" />
+      <edge id="6" source="1920_classical" target="1920_orchestra" weight="11.0" />
+      <edge id="7" source="1920_classical" target="1920_20thcentury" weight="7.0" />
+      <edge id="8" source="1920_classical" target="1920_opera" weight="25.0" />
+      <edge id="9" source="1920_opera" target="1920_orchestra" weight="1.0" />
+      <edge id="10" source="1920_opera" target="1920_20thcentury" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

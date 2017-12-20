@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="totalArtists" type="string" />
+      <attribute id="1" title="incepDate" type="string" />
+    </attributes>
+    <nodes>
+      <node id="1899_classical" label="1899_classical">
+        <attvalues>
+          <attvalue for="0" value="125" />
+          <attvalue for="1" value="1571" />
+        </attvalues>
+      </node>
+      <node id="1899_opera" label="1899_opera">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="1823" />
+        </attvalues>
+      </node>
+      <node id="1899_orchestra" label="1899_orchestra">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="1842" />
+        </attvalues>
+      </node>
+      <node id="1899_classicalcomposer" label="1899_classicalcomposer">
+        <attvalues>
+          <attvalue for="0" value="162" />
+          <attvalue for="1" value="1480" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1899_classical" target="1899_orchestra" weight="3.0" />
+      <edge id="1" source="1899_classical" target="1899_opera" weight="10.0" />
+      <edge id="2" source="1899_classicalcomposer" target="1899_classical" weight="114.0" />
+      <edge id="3" source="1899_classicalcomposer" target="1899_orchestra" weight="1.0" />
+      <edge id="4" source="1899_classicalcomposer" target="1899_opera" weight="10.0" />
+    </edges>
+  </graph>
+</gexf>

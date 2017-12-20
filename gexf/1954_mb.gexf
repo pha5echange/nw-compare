@@ -1,0 +1,689 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="totalArtists" type="string" />
+      <attribute id="1" title="incepDate" type="string" />
+    </attributes>
+    <nodes>
+      <node id="1954_tango" label="1954_tango">
+        <attvalues>
+          <attvalue for="0" value="43" />
+          <attvalue for="1" value="1913" />
+        </attvalues>
+      </node>
+      <node id="1954_musicconcrete" label="1954_musicconcrete">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1948" />
+        </attvalues>
+      </node>
+      <node id="1954_smoothsoul" label="1954_smoothsoul">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1954" />
+        </attvalues>
+      </node>
+      <node id="1954_hard-bop" label="1954_hard-bop">
+        <attvalues>
+          <attvalue for="0" value="109" />
+          <attvalue for="1" value="1938" />
+        </attvalues>
+      </node>
+      <node id="1954_soul-jazz" label="1954_soul-jazz">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="1948" />
+        </attvalues>
+      </node>
+      <node id="1954_20thcentury" label="1954_20thcentury">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1915" />
+        </attvalues>
+      </node>
+      <node id="1954_jump-blues" label="1954_jump-blues">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="1939" />
+        </attvalues>
+      </node>
+      <node id="1954_bebop" label="1954_bebop">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="1937" />
+        </attvalues>
+      </node>
+      <node id="1954_electricblues" label="1954_electricblues">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1953" />
+        </attvalues>
+      </node>
+      <node id="1954_avant-gardejazz" label="1954_avant-gardejazz">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="1950" />
+        </attvalues>
+      </node>
+      <node id="1954_rock" label="1954_rock">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="1948" />
+        </attvalues>
+      </node>
+      <node id="1954_traditionalcountry" label="1954_traditionalcountry">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="1952" />
+        </attvalues>
+      </node>
+      <node id="1954_rnb" label="1954_rnb">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="1953" />
+        </attvalues>
+      </node>
+      <node id="1954_jazz-fusion" label="1954_jazz-fusion">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="1948" />
+        </attvalues>
+      </node>
+      <node id="1954_jazz" label="1954_jazz">
+        <attvalues>
+          <attvalue for="0" value="148" />
+          <attvalue for="1" value="1920" />
+        </attvalues>
+      </node>
+      <node id="1954_bass" label="1954_bass">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1943" />
+        </attvalues>
+      </node>
+      <node id="1954_filmscore" label="1954_filmscore">
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="1931" />
+        </attvalues>
+      </node>
+      <node id="1954_doo-wop" label="1954_doo-wop">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1953" />
+        </attvalues>
+      </node>
+      <node id="1954_post-bop" label="1954_post-bop">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="1946" />
+        </attvalues>
+      </node>
+      <node id="1954_world" label="1954_world">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="1954" />
+        </attvalues>
+      </node>
+      <node id="1954_easylistening" label="1954_easylistening">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="1954" />
+        </attvalues>
+      </node>
+      <node id="1954_bigband" label="1954_bigband">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="1924" />
+        </attvalues>
+      </node>
+      <node id="1954_rock&amp;roll" label="1954_rock&amp;roll">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="1939" />
+        </attvalues>
+      </node>
+      <node id="1954_schlager" label="1954_schlager">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="1946" />
+        </attvalues>
+      </node>
+      <node id="1954_blues" label="1954_blues">
+        <attvalues>
+          <attvalue for="0" value="52" />
+          <attvalue for="1" value="1913" />
+        </attvalues>
+      </node>
+      <node id="1954_soul" label="1954_soul">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="1953" />
+        </attvalues>
+      </node>
+      <node id="1954_electroacoustic" label="1954_electroacoustic">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="1947" />
+        </attvalues>
+      </node>
+      <node id="1954_country" label="1954_country">
+        <attvalues>
+          <attvalue for="0" value="29" />
+          <attvalue for="1" value="1932" />
+        </attvalues>
+      </node>
+      <node id="1954_orchestra" label="1954_orchestra">
+        <attvalues>
+          <attvalue for="0" value="29" />
+          <attvalue for="1" value="1842" />
+        </attvalues>
+      </node>
+      <node id="1954_bossanova" label="1954_bossanova">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="1947" />
+        </attvalues>
+      </node>
+      <node id="1954_opera" label="1954_opera">
+        <attvalues>
+          <attvalue for="0" value="39" />
+          <attvalue for="1" value="1823" />
+        </attvalues>
+      </node>
+      <node id="1954_standards" label="1954_standards">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="1953" />
+        </attvalues>
+      </node>
+      <node id="1954_rockabilly" label="1954_rockabilly">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="1952" />
+        </attvalues>
+      </node>
+      <node id="1954_outlawcountry" label="1954_outlawcountry">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="1952" />
+        </attvalues>
+      </node>
+      <node id="1954_classicpopandrock" label="1954_classicpopandrock">
+        <attvalues>
+          <attvalue for="0" value="53" />
+          <attvalue for="1" value="1937" />
+        </attvalues>
+      </node>
+      <node id="1954_musical" label="1954_musical">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1946" />
+        </attvalues>
+      </node>
+      <node id="1954_gospel" label="1954_gospel">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="1952" />
+        </attvalues>
+      </node>
+      <node id="1954_swing" label="1954_swing">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="1924" />
+        </attvalues>
+      </node>
+      <node id="1954_vocaljazz" label="1954_vocaljazz">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="1937" />
+        </attvalues>
+      </node>
+      <node id="1954_frenchpop" label="1954_frenchpop">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="1954" />
+        </attvalues>
+      </node>
+      <node id="1954_televisionmusic" label="1954_televisionmusic">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1944" />
+        </attvalues>
+      </node>
+      <node id="1954_classical" label="1954_classical">
+        <attvalues>
+          <attvalue for="0" value="502" />
+          <attvalue for="1" value="1571" />
+        </attvalues>
+      </node>
+      <node id="1954_jazzandblues" label="1954_jazzandblues">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="1941" />
+        </attvalues>
+      </node>
+      <node id="1954_pop" label="1954_pop">
+        <attvalues>
+          <attvalue for="0" value="30" />
+          <attvalue for="1" value="1937" />
+        </attvalues>
+      </node>
+      <node id="1954_pop-soul" label="1954_pop-soul">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="1953" />
+        </attvalues>
+      </node>
+      <node id="1954_indie" label="1954_indie">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="1937" />
+        </attvalues>
+      </node>
+      <node id="1954_rhythmandblues" label="1954_rhythmandblues">
+        <attvalues>
+          <attvalue for="0" value="24" />
+          <attvalue for="1" value="1939" />
+        </attvalues>
+      </node>
+      <node id="1954_bluegrass" label="1954_bluegrass">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="1947" />
+        </attvalues>
+      </node>
+      <node id="1954_classicalcomposer" label="1954_classicalcomposer">
+        <attvalues>
+          <attvalue for="0" value="480" />
+          <attvalue for="1" value="1480" />
+        </attvalues>
+      </node>
+      <node id="1954_eurovision" label="1954_eurovision">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="1954" />
+        </attvalues>
+      </node>
+      <node id="1954_roots" label="1954_roots">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1951" />
+        </attvalues>
+      </node>
+      <node id="1954_folk" label="1954_folk">
+        <attvalues>
+          <attvalue for="0" value="30" />
+          <attvalue for="1" value="1950" />
+        </attvalues>
+      </node>
+      <node id="1954_librarymusic" label="1954_librarymusic">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1948" />
+        </attvalues>
+      </node>
+      <node id="1954_latinjazz" label="1954_latinjazz">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="1945" />
+        </attvalues>
+      </node>
+      <node id="1954_chicagosoul" label="1954_chicagosoul">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="1954" />
+        </attvalues>
+      </node>
+      <node id="1954_contemporaryclassical" label="1954_contemporaryclassical">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1948" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1954_tango" target="1954_world" weight="1.0" />
+      <edge id="1" source="1954_hard-bop" target="1954_avant-gardejazz" weight="5.0" />
+      <edge id="2" source="1954_hard-bop" target="1954_jazzandblues" weight="17.0" />
+      <edge id="3" source="1954_hard-bop" target="1954_soul-jazz" weight="4.0" />
+      <edge id="4" source="1954_hard-bop" target="1954_post-bop" weight="7.0" />
+      <edge id="5" source="1954_hard-bop" target="1954_musical" weight="1.0" />
+      <edge id="6" source="1954_hard-bop" target="1954_latinjazz" weight="2.0" />
+      <edge id="7" source="1954_hard-bop" target="1954_jazz-fusion" weight="5.0" />
+      <edge id="8" source="1954_soul-jazz" target="1954_soul" weight="2.0" />
+      <edge id="9" source="1954_soul-jazz" target="1954_rnb" weight="2.0" />
+      <edge id="10" source="1954_soul-jazz" target="1954_pop-soul" weight="1.0" />
+      <edge id="11" source="1954_soul-jazz" target="1954_folk" weight="1.0" />
+      <edge id="12" source="1954_soul-jazz" target="1954_gospel" weight="2.0" />
+      <edge id="13" source="1954_20thcentury" target="1954_filmscore" weight="1.0" />
+      <edge id="14" source="1954_bebop" target="1954_avant-gardejazz" weight="5.0" />
+      <edge id="15" source="1954_bebop" target="1954_jazz-fusion" weight="2.0" />
+      <edge id="16" source="1954_bebop" target="1954_hard-bop" weight="9.0" />
+      <edge id="17" source="1954_bebop" target="1954_soul-jazz" weight="1.0" />
+      <edge id="18" source="1954_bebop" target="1954_folk" weight="1.0" />
+      <edge id="19" source="1954_bebop" target="1954_post-bop" weight="7.0" />
+      <edge id="20" source="1954_bebop" target="1954_jazzandblues" weight="4.0" />
+      <edge id="21" source="1954_bebop" target="1954_musical" weight="1.0" />
+      <edge id="22" source="1954_bebop" target="1954_latinjazz" weight="2.0" />
+      <edge id="23" source="1954_bebop" target="1954_bossanova" weight="2.0" />
+      <edge id="24" source="1954_bebop" target="1954_rock" weight="1.0" />
+      <edge id="25" source="1954_rock" target="1954_soul" weight="1.0" />
+      <edge id="26" source="1954_rock" target="1954_traditionalcountry" weight="2.0" />
+      <edge id="27" source="1954_rock" target="1954_rnb" weight="2.0" />
+      <edge id="28" source="1954_rock" target="1954_smoothsoul" weight="1.0" />
+      <edge id="29" source="1954_rock" target="1954_folk" weight="3.0" />
+      <edge id="30" source="1954_rock" target="1954_standards" weight="1.0" />
+      <edge id="31" source="1954_rock" target="1954_gospel" weight="2.0" />
+      <edge id="32" source="1954_rock" target="1954_outlawcountry" weight="2.0" />
+      <edge id="33" source="1954_rock" target="1954_eurovision" weight="1.0" />
+      <edge id="34" source="1954_rock" target="1954_electricblues" weight="2.0" />
+      <edge id="35" source="1954_rock" target="1954_rockabilly" weight="2.0" />
+      <edge id="36" source="1954_rock" target="1954_easylistening" weight="1.0" />
+      <edge id="37" source="1954_rock" target="1954_frenchpop" weight="1.0" />
+      <edge id="38" source="1954_rnb" target="1954_smoothsoul" weight="1.0" />
+      <edge id="39" source="1954_jazz-fusion" target="1954_soul" weight="1.0" />
+      <edge id="40" source="1954_jazz" target="1954_hard-bop" weight="50.0" />
+      <edge id="41" source="1954_jazz" target="1954_soul-jazz" weight="6.0" />
+      <edge id="42" source="1954_jazz" target="1954_jump-blues" weight="3.0" />
+      <edge id="43" source="1954_jazz" target="1954_bebop" weight="19.0" />
+      <edge id="44" source="1954_jazz" target="1954_vocaljazz" weight="15.0" />
+      <edge id="45" source="1954_jazz" target="1954_rnb" weight="3.0" />
+      <edge id="46" source="1954_jazz" target="1954_jazz-fusion" weight="5.0" />
+      <edge id="47" source="1954_jazz" target="1954_filmscore" weight="3.0" />
+      <edge id="48" source="1954_jazz" target="1954_post-bop" weight="9.0" />
+      <edge id="49" source="1954_jazz" target="1954_world" weight="1.0" />
+      <edge id="50" source="1954_jazz" target="1954_easylistening" weight="2.0" />
+      <edge id="51" source="1954_jazz" target="1954_bigband" weight="19.0" />
+      <edge id="52" source="1954_jazz" target="1954_rock&amp;roll" weight="4.0" />
+      <edge id="53" source="1954_jazz" target="1954_soul" weight="2.0" />
+      <edge id="54" source="1954_jazz" target="1954_country" weight="3.0" />
+      <edge id="55" source="1954_jazz" target="1954_avant-gardejazz" weight="9.0" />
+      <edge id="56" source="1954_jazz" target="1954_bossanova" weight="3.0" />
+      <edge id="57" source="1954_jazz" target="1954_standards" weight="6.0" />
+      <edge id="58" source="1954_jazz" target="1954_classicpopandrock" weight="11.0" />
+      <edge id="59" source="1954_jazz" target="1954_musical" weight="1.0" />
+      <edge id="60" source="1954_jazz" target="1954_gospel" weight="2.0" />
+      <edge id="61" source="1954_jazz" target="1954_swing" weight="23.0" />
+      <edge id="62" source="1954_jazz" target="1954_rock" weight="3.0" />
+      <edge id="63" source="1954_jazz" target="1954_frenchpop" weight="3.0" />
+      <edge id="64" source="1954_jazz" target="1954_jazzandblues" weight="17.0" />
+      <edge id="65" source="1954_jazz" target="1954_pop" weight="12.0" />
+      <edge id="66" source="1954_jazz" target="1954_pop-soul" weight="1.0" />
+      <edge id="67" source="1954_jazz" target="1954_indie" weight="2.0" />
+      <edge id="68" source="1954_jazz" target="1954_rhythmandblues" weight="7.0" />
+      <edge id="69" source="1954_jazz" target="1954_eurovision" weight="2.0" />
+      <edge id="70" source="1954_jazz" target="1954_folk" weight="4.0" />
+      <edge id="71" source="1954_jazz" target="1954_latinjazz" weight="5.0" />
+      <edge id="72" source="1954_jazz" target="1954_contemporaryclassical" weight="1.0" />
+      <edge id="73" source="1954_filmscore" target="1954_eurovision" weight="1.0" />
+      <edge id="74" source="1954_filmscore" target="1954_frenchpop" weight="1.0" />
+      <edge id="75" source="1954_filmscore" target="1954_pop" weight="2.0" />
+      <edge id="76" source="1954_filmscore" target="1954_indie" weight="1.0" />
+      <edge id="77" source="1954_filmscore" target="1954_standards" weight="2.0" />
+      <edge id="78" source="1954_filmscore" target="1954_televisionmusic" weight="2.0" />
+      <edge id="79" source="1954_filmscore" target="1954_bebop" weight="1.0" />
+      <edge id="80" source="1954_filmscore" target="1954_contemporaryclassical" weight="2.0" />
+      <edge id="81" source="1954_filmscore" target="1954_librarymusic" weight="1.0" />
+      <edge id="82" source="1954_filmscore" target="1954_classicpopandrock" weight="1.0" />
+      <edge id="83" source="1954_filmscore" target="1954_musical" weight="3.0" />
+      <edge id="84" source="1954_filmscore" target="1954_vocaljazz" weight="1.0" />
+      <edge id="85" source="1954_filmscore" target="1954_rock" weight="2.0" />
+      <edge id="86" source="1954_doo-wop" target="1954_chicagosoul" weight="1.0" />
+      <edge id="87" source="1954_doo-wop" target="1954_smoothsoul" weight="1.0" />
+      <edge id="88" source="1954_post-bop" target="1954_avant-gardejazz" weight="5.0" />
+      <edge id="89" source="1954_post-bop" target="1954_folk" weight="1.0" />
+      <edge id="90" source="1954_post-bop" target="1954_jazz-fusion" weight="2.0" />
+      <edge id="91" source="1954_bigband" target="1954_country" weight="1.0" />
+      <edge id="92" source="1954_bigband" target="1954_jazzandblues" weight="1.0" />
+      <edge id="93" source="1954_bigband" target="1954_pop" weight="5.0" />
+      <edge id="94" source="1954_bigband" target="1954_hard-bop" weight="2.0" />
+      <edge id="95" source="1954_bigband" target="1954_soul-jazz" weight="1.0" />
+      <edge id="96" source="1954_bigband" target="1954_standards" weight="5.0" />
+      <edge id="97" source="1954_bigband" target="1954_filmscore" weight="1.0" />
+      <edge id="98" source="1954_bigband" target="1954_latinjazz" weight="1.0" />
+      <edge id="99" source="1954_bigband" target="1954_bebop" weight="2.0" />
+      <edge id="100" source="1954_bigband" target="1954_post-bop" weight="1.0" />
+      <edge id="101" source="1954_bigband" target="1954_classicpopandrock" weight="3.0" />
+      <edge id="102" source="1954_bigband" target="1954_musical" weight="1.0" />
+      <edge id="103" source="1954_bigband" target="1954_easylistening" weight="1.0" />
+      <edge id="104" source="1954_bigband" target="1954_rock" weight="1.0" />
+      <edge id="105" source="1954_bigband" target="1954_rock&amp;roll" weight="1.0" />
+      <edge id="106" source="1954_bigband" target="1954_vocaljazz" weight="5.0" />
+      <edge id="107" source="1954_rock&amp;roll" target="1954_soul" weight="3.0" />
+      <edge id="108" source="1954_rock&amp;roll" target="1954_outlawcountry" weight="1.0" />
+      <edge id="109" source="1954_rock&amp;roll" target="1954_rnb" weight="2.0" />
+      <edge id="110" source="1954_rock&amp;roll" target="1954_smoothsoul" weight="1.0" />
+      <edge id="111" source="1954_rock&amp;roll" target="1954_pop-soul" weight="2.0" />
+      <edge id="112" source="1954_rock&amp;roll" target="1954_folk" weight="1.0" />
+      <edge id="113" source="1954_rock&amp;roll" target="1954_gospel" weight="3.0" />
+      <edge id="114" source="1954_rock&amp;roll" target="1954_doo-wop" weight="1.0" />
+      <edge id="115" source="1954_rock&amp;roll" target="1954_traditionalcountry" weight="2.0" />
+      <edge id="116" source="1954_rock&amp;roll" target="1954_electricblues" weight="1.0" />
+      <edge id="117" source="1954_rock&amp;roll" target="1954_rockabilly" weight="3.0" />
+      <edge id="118" source="1954_rock&amp;roll" target="1954_easylistening" weight="2.0" />
+      <edge id="119" source="1954_rock&amp;roll" target="1954_chicagosoul" weight="1.0" />
+      <edge id="120" source="1954_rock&amp;roll" target="1954_rock" weight="9.0" />
+      <edge id="121" source="1954_blues" target="1954_soul-jazz" weight="2.0" />
+      <edge id="122" source="1954_blues" target="1954_jump-blues" weight="1.0" />
+      <edge id="123" source="1954_blues" target="1954_electricblues" weight="8.0" />
+      <edge id="124" source="1954_blues" target="1954_vocaljazz" weight="4.0" />
+      <edge id="125" source="1954_blues" target="1954_rnb" weight="3.0" />
+      <edge id="126" source="1954_blues" target="1954_jazz" weight="8.0" />
+      <edge id="127" source="1954_blues" target="1954_rockabilly" weight="1.0" />
+      <edge id="128" source="1954_blues" target="1954_rock&amp;roll" weight="5.0" />
+      <edge id="129" source="1954_blues" target="1954_soul" weight="2.0" />
+      <edge id="130" source="1954_blues" target="1954_country" weight="3.0" />
+      <edge id="131" source="1954_blues" target="1954_standards" weight="3.0" />
+      <edge id="132" source="1954_blues" target="1954_outlawcountry" weight="2.0" />
+      <edge id="133" source="1954_blues" target="1954_classicpopandrock" weight="12.0" />
+      <edge id="134" source="1954_blues" target="1954_gospel" weight="3.0" />
+      <edge id="135" source="1954_blues" target="1954_swing" weight="3.0" />
+      <edge id="136" source="1954_blues" target="1954_rock" weight="4.0" />
+      <edge id="137" source="1954_blues" target="1954_jazzandblues" weight="2.0" />
+      <edge id="138" source="1954_blues" target="1954_pop" weight="2.0" />
+      <edge id="139" source="1954_blues" target="1954_pop-soul" weight="1.0" />
+      <edge id="140" source="1954_blues" target="1954_indie" weight="3.0" />
+      <edge id="141" source="1954_blues" target="1954_rhythmandblues" weight="10.0" />
+      <edge id="142" source="1954_blues" target="1954_traditionalcountry" weight="1.0" />
+      <edge id="143" source="1954_blues" target="1954_folk" weight="5.0" />
+      <edge id="144" source="1954_soul" target="1954_smoothsoul" weight="2.0" />
+      <edge id="145" source="1954_soul" target="1954_chicagosoul" weight="2.0" />
+      <edge id="146" source="1954_electroacoustic" target="1954_musicconcrete" weight="1.0" />
+      <edge id="147" source="1954_electroacoustic" target="1954_librarymusic" weight="1.0" />
+      <edge id="148" source="1954_electroacoustic" target="1954_contemporaryclassical" weight="1.0" />
+      <edge id="149" source="1954_country" target="1954_soul-jazz" weight="1.0" />
+      <edge id="150" source="1954_country" target="1954_rock" weight="7.0" />
+      <edge id="151" source="1954_country" target="1954_rnb" weight="1.0" />
+      <edge id="152" source="1954_country" target="1954_rockabilly" weight="3.0" />
+      <edge id="153" source="1954_country" target="1954_easylistening" weight="2.0" />
+      <edge id="154" source="1954_country" target="1954_rock&amp;roll" weight="8.0" />
+      <edge id="155" source="1954_country" target="1954_soul" weight="1.0" />
+      <edge id="156" source="1954_country" target="1954_standards" weight="1.0" />
+      <edge id="157" source="1954_country" target="1954_outlawcountry" weight="3.0" />
+      <edge id="158" source="1954_country" target="1954_classicpopandrock" weight="4.0" />
+      <edge id="159" source="1954_country" target="1954_gospel" weight="5.0" />
+      <edge id="160" source="1954_country" target="1954_vocaljazz" weight="1.0" />
+      <edge id="161" source="1954_country" target="1954_pop" weight="7.0" />
+      <edge id="162" source="1954_country" target="1954_indie" weight="1.0" />
+      <edge id="163" source="1954_country" target="1954_rhythmandblues" weight="1.0" />
+      <edge id="164" source="1954_country" target="1954_traditionalcountry" weight="3.0" />
+      <edge id="165" source="1954_country" target="1954_folk" weight="4.0" />
+      <edge id="166" source="1954_orchestra" target="1954_filmscore" weight="1.0" />
+      <edge id="167" source="1954_orchestra" target="1954_20thcentury" weight="2.0" />
+      <edge id="168" source="1954_orchestra" target="1954_librarymusic" weight="1.0" />
+      <edge id="169" source="1954_orchestra" target="1954_contemporaryclassical" weight="1.0" />
+      <edge id="170" source="1954_orchestra" target="1954_televisionmusic" weight="1.0" />
+      <edge id="171" source="1954_bossanova" target="1954_avant-gardejazz" weight="1.0" />
+      <edge id="172" source="1954_opera" target="1954_20thcentury" weight="2.0" />
+      <edge id="173" source="1954_opera" target="1954_orchestra" weight="1.0" />
+      <edge id="174" source="1954_opera" target="1954_musical" weight="1.0" />
+      <edge id="175" source="1954_opera" target="1954_filmscore" weight="4.0" />
+      <edge id="176" source="1954_outlawcountry" target="1954_standards" weight="1.0" />
+      <edge id="177" source="1954_classicpopandrock" target="1954_soul" weight="4.0" />
+      <edge id="178" source="1954_classicpopandrock" target="1954_rnb" weight="3.0" />
+      <edge id="179" source="1954_classicpopandrock" target="1954_avant-gardejazz" weight="1.0" />
+      <edge id="180" source="1954_classicpopandrock" target="1954_bossanova" weight="1.0" />
+      <edge id="181" source="1954_classicpopandrock" target="1954_pop-soul" weight="2.0" />
+      <edge id="182" source="1954_classicpopandrock" target="1954_soul-jazz" weight="2.0" />
+      <edge id="183" source="1954_classicpopandrock" target="1954_standards" weight="2.0" />
+      <edge id="184" source="1954_classicpopandrock" target="1954_rhythmandblues" weight="7.0" />
+      <edge id="185" source="1954_classicpopandrock" target="1954_gospel" weight="2.0" />
+      <edge id="186" source="1954_classicpopandrock" target="1954_electricblues" weight="4.0" />
+      <edge id="187" source="1954_classicpopandrock" target="1954_folk" weight="2.0" />
+      <edge id="188" source="1954_classicpopandrock" target="1954_easylistening" weight="1.0" />
+      <edge id="189" source="1954_classicpopandrock" target="1954_chicagosoul" weight="1.0" />
+      <edge id="190" source="1954_classicpopandrock" target="1954_rock" weight="5.0" />
+      <edge id="191" source="1954_classicpopandrock" target="1954_rock&amp;roll" weight="6.0" />
+      <edge id="192" source="1954_classicpopandrock" target="1954_latinjazz" weight="1.0" />
+      <edge id="193" source="1954_musical" target="1954_jazz-fusion" weight="1.0" />
+      <edge id="194" source="1954_musical" target="1954_standards" weight="1.0" />
+      <edge id="195" source="1954_gospel" target="1954_soul" weight="6.0" />
+      <edge id="196" source="1954_gospel" target="1954_rnb" weight="3.0" />
+      <edge id="197" source="1954_gospel" target="1954_pop-soul" weight="2.0" />
+      <edge id="198" source="1954_gospel" target="1954_easylistening" weight="1.0" />
+      <edge id="199" source="1954_swing" target="1954_hard-bop" weight="2.0" />
+      <edge id="200" source="1954_swing" target="1954_jump-blues" weight="3.0" />
+      <edge id="201" source="1954_swing" target="1954_bebop" weight="4.0" />
+      <edge id="202" source="1954_swing" target="1954_vocaljazz" weight="5.0" />
+      <edge id="203" source="1954_swing" target="1954_post-bop" weight="1.0" />
+      <edge id="204" source="1954_swing" target="1954_easylistening" weight="1.0" />
+      <edge id="205" source="1954_swing" target="1954_rock&amp;roll" weight="3.0" />
+      <edge id="206" source="1954_swing" target="1954_country" weight="1.0" />
+      <edge id="207" source="1954_swing" target="1954_avant-gardejazz" weight="1.0" />
+      <edge id="208" source="1954_swing" target="1954_bossanova" weight="1.0" />
+      <edge id="209" source="1954_swing" target="1954_standards" weight="2.0" />
+      <edge id="210" source="1954_swing" target="1954_classicpopandrock" weight="3.0" />
+      <edge id="211" source="1954_swing" target="1954_rock" weight="1.0" />
+      <edge id="212" source="1954_swing" target="1954_jazzandblues" weight="1.0" />
+      <edge id="213" source="1954_swing" target="1954_pop" weight="4.0" />
+      <edge id="214" source="1954_swing" target="1954_indie" weight="1.0" />
+      <edge id="215" source="1954_swing" target="1954_rhythmandblues" weight="2.0" />
+      <edge id="216" source="1954_swing" target="1954_folk" weight="1.0" />
+      <edge id="217" source="1954_swing" target="1954_latinjazz" weight="1.0" />
+      <edge id="218" source="1954_vocaljazz" target="1954_soul" weight="2.0" />
+      <edge id="219" source="1954_vocaljazz" target="1954_hard-bop" weight="1.0" />
+      <edge id="220" source="1954_vocaljazz" target="1954_jump-blues" weight="1.0" />
+      <edge id="221" source="1954_vocaljazz" target="1954_pop-soul" weight="1.0" />
+      <edge id="222" source="1954_vocaljazz" target="1954_standards" weight="7.0" />
+      <edge id="223" source="1954_vocaljazz" target="1954_rhythmandblues" weight="3.0" />
+      <edge id="224" source="1954_vocaljazz" target="1954_soul-jazz" weight="2.0" />
+      <edge id="225" source="1954_vocaljazz" target="1954_rnb" weight="3.0" />
+      <edge id="226" source="1954_vocaljazz" target="1954_folk" weight="1.0" />
+      <edge id="227" source="1954_vocaljazz" target="1954_gospel" weight="2.0" />
+      <edge id="228" source="1954_televisionmusic" target="1954_contemporaryclassical" weight="1.0" />
+      <edge id="229" source="1954_televisionmusic" target="1954_librarymusic" weight="1.0" />
+      <edge id="230" source="1954_classical" target="1954_musicconcrete" weight="2.0" />
+      <edge id="231" source="1954_classical" target="1954_20thcentury" weight="9.0" />
+      <edge id="232" source="1954_classical" target="1954_orchestra" weight="18.0" />
+      <edge id="233" source="1954_classical" target="1954_bebop" weight="1.0" />
+      <edge id="234" source="1954_classical" target="1954_jazz" weight="3.0" />
+      <edge id="235" source="1954_classical" target="1954_bass" weight="2.0" />
+      <edge id="236" source="1954_classical" target="1954_filmscore" weight="16.0" />
+      <edge id="237" source="1954_classical" target="1954_librarymusic" weight="2.0" />
+      <edge id="238" source="1954_classical" target="1954_world" weight="1.0" />
+      <edge id="239" source="1954_classical" target="1954_easylistening" weight="1.0" />
+      <edge id="240" source="1954_classical" target="1954_electroacoustic" weight="1.0" />
+      <edge id="241" source="1954_classical" target="1954_country" weight="1.0" />
+      <edge id="242" source="1954_classical" target="1954_opera" weight="35.0" />
+      <edge id="243" source="1954_classical" target="1954_musical" weight="2.0" />
+      <edge id="244" source="1954_classical" target="1954_rock" weight="1.0" />
+      <edge id="245" source="1954_classical" target="1954_frenchpop" weight="1.0" />
+      <edge id="246" source="1954_classical" target="1954_televisionmusic" weight="1.0" />
+      <edge id="247" source="1954_classical" target="1954_jazzandblues" weight="1.0" />
+      <edge id="248" source="1954_classical" target="1954_pop" weight="1.0" />
+      <edge id="249" source="1954_classical" target="1954_eurovision" weight="1.0" />
+      <edge id="250" source="1954_classical" target="1954_folk" weight="2.0" />
+      <edge id="251" source="1954_classical" target="1954_contemporaryclassical" weight="7.0" />
+      <edge id="252" source="1954_jazzandblues" target="1954_avant-gardejazz" weight="3.0" />
+      <edge id="253" source="1954_jazzandblues" target="1954_jazz-fusion" weight="3.0" />
+      <edge id="254" source="1954_jazzandblues" target="1954_soul-jazz" weight="1.0" />
+      <edge id="255" source="1954_jazzandblues" target="1954_electricblues" weight="1.0" />
+      <edge id="256" source="1954_jazzandblues" target="1954_post-bop" weight="5.0" />
+      <edge id="257" source="1954_jazzandblues" target="1954_musical" weight="1.0" />
+      <edge id="258" source="1954_pop" target="1954_soul-jazz" weight="1.0" />
+      <edge id="259" source="1954_pop" target="1954_schlager" weight="1.0" />
+      <edge id="260" source="1954_pop" target="1954_jump-blues" weight="1.0" />
+      <edge id="261" source="1954_pop" target="1954_rnb" weight="1.0" />
+      <edge id="262" source="1954_pop" target="1954_jazz-fusion" weight="1.0" />
+      <edge id="263" source="1954_pop" target="1954_doo-wop" weight="1.0" />
+      <edge id="264" source="1954_pop" target="1954_easylistening" weight="2.0" />
+      <edge id="265" source="1954_pop" target="1954_rock&amp;roll" weight="5.0" />
+      <edge id="266" source="1954_pop" target="1954_soul" weight="2.0" />
+      <edge id="267" source="1954_pop" target="1954_standards" weight="4.0" />
+      <edge id="268" source="1954_pop" target="1954_musical" weight="1.0" />
+      <edge id="269" source="1954_pop" target="1954_gospel" weight="3.0" />
+      <edge id="270" source="1954_pop" target="1954_rock" weight="3.0" />
+      <edge id="271" source="1954_pop" target="1954_pop-soul" weight="1.0" />
+      <edge id="272" source="1954_pop" target="1954_rhythmandblues" weight="3.0" />
+      <edge id="273" source="1954_pop" target="1954_traditionalcountry" weight="1.0" />
+      <edge id="274" source="1954_pop" target="1954_folk" weight="1.0" />
+      <edge id="275" source="1954_pop-soul" target="1954_chicagosoul" weight="1.0" />
+      <edge id="276" source="1954_indie" target="1954_electroacoustic" weight="1.0" />
+      <edge id="277" source="1954_indie" target="1954_rnb" weight="1.0" />
+      <edge id="278" source="1954_indie" target="1954_standards" weight="1.0" />
+      <edge id="279" source="1954_indie" target="1954_rhythmandblues" weight="3.0" />
+      <edge id="280" source="1954_indie" target="1954_traditionalcountry" weight="1.0" />
+      <edge id="281" source="1954_indie" target="1954_eurovision" weight="1.0" />
+      <edge id="282" source="1954_indie" target="1954_electricblues" weight="2.0" />
+      <edge id="283" source="1954_indie" target="1954_gospel" weight="1.0" />
+      <edge id="284" source="1954_indie" target="1954_rock" weight="4.0" />
+      <edge id="285" source="1954_indie" target="1954_frenchpop" weight="1.0" />
+      <edge id="286" source="1954_indie" target="1954_rock&amp;roll" weight="3.0" />
+      <edge id="287" source="1954_rhythmandblues" target="1954_smoothsoul" weight="1.0" />
+      <edge id="288" source="1954_rhythmandblues" target="1954_soul-jazz" weight="2.0" />
+      <edge id="289" source="1954_rhythmandblues" target="1954_electricblues" weight="4.0" />
+      <edge id="290" source="1954_rhythmandblues" target="1954_rnb" weight="5.0" />
+      <edge id="291" source="1954_rhythmandblues" target="1954_jazz-fusion" weight="1.0" />
+      <edge id="292" source="1954_rhythmandblues" target="1954_doo-wop" weight="4.0" />
+      <edge id="293" source="1954_rhythmandblues" target="1954_soul" weight="8.0" />
+      <edge id="294" source="1954_rhythmandblues" target="1954_standards" weight="2.0" />
+      <edge id="295" source="1954_rhythmandblues" target="1954_gospel" weight="4.0" />
+      <edge id="296" source="1954_rhythmandblues" target="1954_rock" weight="4.0" />
+      <edge id="297" source="1954_rhythmandblues" target="1954_jazzandblues" weight="1.0" />
+      <edge id="298" source="1954_rhythmandblues" target="1954_pop-soul" weight="6.0" />
+      <edge id="299" source="1954_rhythmandblues" target="1954_folk" weight="1.0" />
+      <edge id="300" source="1954_rhythmandblues" target="1954_chicagosoul" weight="1.0" />
+      <edge id="301" source="1954_classicalcomposer" target="1954_tango" weight="1.0" />
+      <edge id="302" source="1954_classicalcomposer" target="1954_musicconcrete" weight="2.0" />
+      <edge id="303" source="1954_classicalcomposer" target="1954_hard-bop" weight="2.0" />
+      <edge id="304" source="1954_classicalcomposer" target="1954_20thcentury" weight="9.0" />
+      <edge id="305" source="1954_classicalcomposer" target="1954_orchestra" weight="5.0" />
+      <edge id="306" source="1954_classicalcomposer" target="1954_jazz" weight="5.0" />
+      <edge id="307" source="1954_classicalcomposer" target="1954_filmscore" weight="23.0" />
+      <edge id="308" source="1954_classicalcomposer" target="1954_librarymusic" weight="2.0" />
+      <edge id="309" source="1954_classicalcomposer" target="1954_world" weight="1.0" />
+      <edge id="310" source="1954_classicalcomposer" target="1954_electroacoustic" weight="2.0" />
+      <edge id="311" source="1954_classicalcomposer" target="1954_opera" weight="29.0" />
+      <edge id="312" source="1954_classicalcomposer" target="1954_musical" weight="2.0" />
+      <edge id="313" source="1954_classicalcomposer" target="1954_swing" weight="1.0" />
+      <edge id="314" source="1954_classicalcomposer" target="1954_rock" weight="1.0" />
+      <edge id="315" source="1954_classicalcomposer" target="1954_frenchpop" weight="1.0" />
+      <edge id="316" source="1954_classicalcomposer" target="1954_televisionmusic" weight="5.0" />
+      <edge id="317" source="1954_classicalcomposer" target="1954_classical" weight="330.0" />
+      <edge id="318" source="1954_classicalcomposer" target="1954_jazzandblues" weight="2.0" />
+      <edge id="319" source="1954_classicalcomposer" target="1954_pop" weight="1.0" />
+      <edge id="320" source="1954_classicalcomposer" target="1954_indie" weight="1.0" />
+      <edge id="321" source="1954_classicalcomposer" target="1954_eurovision" weight="1.0" />
+      <edge id="322" source="1954_classicalcomposer" target="1954_contemporaryclassical" weight="6.0" />
+      <edge id="323" source="1954_folk" target="1954_soul" weight="1.0" />
+      <edge id="324" source="1954_folk" target="1954_traditionalcountry" weight="1.0" />
+      <edge id="325" source="1954_folk" target="1954_rnb" weight="1.0" />
+      <edge id="326" source="1954_folk" target="1954_pop-soul" weight="1.0" />
+      <edge id="327" source="1954_folk" target="1954_standards" weight="1.0" />
+      <edge id="328" source="1954_folk" target="1954_rockabilly" weight="1.0" />
+      <edge id="329" source="1954_folk" target="1954_gospel" weight="2.0" />
+      <edge id="330" source="1954_folk" target="1954_outlawcountry" weight="2.0" />
+      <edge id="331" source="1954_folk" target="1954_eurovision" weight="1.0" />
+      <edge id="332" source="1954_folk" target="1954_world" weight="1.0" />
+      <edge id="333" source="1954_folk" target="1954_easylistening" weight="1.0" />
+      <edge id="334" source="1954_folk" target="1954_frenchpop" weight="1.0" />
+      <edge id="335" source="1954_latinjazz" target="1954_avant-gardejazz" weight="1.0" />
+      <edge id="336" source="1954_latinjazz" target="1954_bossanova" weight="2.0" />
+      <edge id="337" source="1954_latinjazz" target="1954_soul-jazz" weight="1.0" />
+      <edge id="338" source="1954_latinjazz" target="1954_post-bop" weight="1.0" />
+      <edge id="339" source="1954_contemporaryclassical" target="1954_folk" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

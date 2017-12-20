@@ -6,22 +6,16 @@
       <attribute id="1" title="incepDate" type="string" />
     </attributes>
     <nodes>
+      <node id="1899_modern_classical" label="1899_modern_classical">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="1885" />
+        </attvalues>
+      </node>
       <node id="1899_classical_period" label="1899_classical_period">
         <attvalues>
           <attvalue for="0" value="102" />
-          <attvalue for="1" value="1734" />
-        </attvalues>
-      </node>
-      <node id="1899_baroque" label="1899_baroque">
-        <attvalues>
-          <attvalue for="0" value="105" />
-          <attvalue for="1" value="1622" />
-        </attvalues>
-      </node>
-      <node id="1899_modern_classical" label="1899_modern_classical">
-        <attvalues>
-          <attvalue for="0" value="15" />
-          <attvalue for="1" value="1899" />
+          <attvalue for="1" value="1730" />
         </attvalues>
       </node>
       <node id="1899_tin_pan_alley" label="1899_tin_pan_alley">
@@ -32,56 +26,14 @@
       </node>
       <node id="1899_romantic" label="1899_romantic">
         <attvalues>
-          <attvalue for="0" value="123" />
-          <attvalue for="1" value="1734" />
+          <attvalue for="0" value="120" />
+          <attvalue for="1" value="1673" />
         </attvalues>
       </node>
-      <node id="1899_reading" label="1899_reading">
+      <node id="1899_baroque" label="1899_baroque">
         <attvalues>
-          <attvalue for="0" value="19" />
-          <attvalue for="1" value="1879" />
-        </attvalues>
-      </node>
-      <node id="1899_early_music" label="1899_early_music">
-        <attvalues>
-          <attvalue for="0" value="52" />
-          <attvalue for="1" value="1490" />
-        </attvalues>
-      </node>
-      <node id="1899_orchestral" label="1899_orchestral">
-        <attvalues>
-          <attvalue for="0" value="8" />
-          <attvalue for="1" value="1891" />
-        </attvalues>
-      </node>
-      <node id="1899_classical_organ" label="1899_classical_organ">
-        <attvalues>
-          <attvalue for="0" value="7" />
-          <attvalue for="1" value="1864" />
-        </attvalues>
-      </node>
-      <node id="1899_classical_christmas" label="1899_classical_christmas">
-        <attvalues>
-          <attvalue for="0" value="73" />
-          <attvalue for="1" value="1734" />
-        </attvalues>
-      </node>
-      <node id="1899_avant-garde" label="1899_avant-garde">
-        <attvalues>
-          <attvalue for="0" value="15" />
-          <attvalue for="1" value="1899" />
-        </attvalues>
-      </node>
-      <node id="1899_light_music" label="1899_light_music">
-        <attvalues>
-          <attvalue for="0" value="5" />
-          <attvalue for="1" value="1895" />
-        </attvalues>
-      </node>
-      <node id="1899_classical" label="1899_classical">
-        <attvalues>
-          <attvalue for="0" value="117" />
-          <attvalue for="1" value="1734" />
+          <attvalue for="0" value="104" />
+          <attvalue for="1" value="1571" />
         </attvalues>
       </node>
       <node id="1899_renaissance" label="1899_renaissance">
@@ -92,51 +44,113 @@
       </node>
       <node id="1899_composition_d" label="1899_composition_d">
         <attvalues>
-          <attvalue for="0" value="47" />
+          <attvalue for="0" value="43" />
           <attvalue for="1" value="1824" />
+        </attvalues>
+      </node>
+      <node id="1899_avant-garde" label="1899_avant-garde">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="1885" />
+        </attvalues>
+      </node>
+      <node id="1899_classical_organ" label="1899_classical_organ">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1864" />
+        </attvalues>
+      </node>
+      <node id="1899_orchestral" label="1899_orchestral">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1891" />
+        </attvalues>
+      </node>
+      <node id="1899_classical" label="1899_classical">
+        <attvalues>
+          <attvalue for="0" value="114" />
+          <attvalue for="1" value="1571" />
+        </attvalues>
+      </node>
+      <node id="1899_classical_christmas" label="1899_classical_christmas">
+        <attvalues>
+          <attvalue for="0" value="70" />
+          <attvalue for="1" value="1673" />
+        </attvalues>
+      </node>
+      <node id="1899_early_music" label="1899_early_music">
+        <attvalues>
+          <attvalue for="0" value="52" />
+          <attvalue for="1" value="1490" />
+        </attvalues>
+      </node>
+      <node id="1899_minimal" label="1899_minimal">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="1894" />
+        </attvalues>
+      </node>
+      <node id="1899_light_music" label="1899_light_music">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="1895" />
+        </attvalues>
+      </node>
+      <node id="1899_reading" label="1899_reading">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="1879" />
         </attvalues>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="1899_classical_period" target="1899_avant-garde" weight="1.0" />
-      <edge id="1" source="1899_classical_period" target="1899_composition_d" weight="3.0" />
-      <edge id="2" source="1899_classical_period" target="1899_modern_classical" weight="2.0" />
-      <edge id="3" source="1899_baroque" target="1899_romantic" weight="29.0" />
-      <edge id="4" source="1899_baroque" target="1899_modern_classical" weight="1.0" />
-      <edge id="5" source="1899_baroque" target="1899_classical_period" weight="37.0" />
-      <edge id="6" source="1899_baroque" target="1899_classical_organ" weight="1.0" />
-      <edge id="7" source="1899_baroque" target="1899_classical_christmas" weight="37.0" />
-      <edge id="8" source="1899_baroque" target="1899_avant-garde" weight="2.0" />
-      <edge id="9" source="1899_baroque" target="1899_classical" weight="45.0" />
-      <edge id="10" source="1899_romantic" target="1899_avant-garde" weight="13.0" />
-      <edge id="11" source="1899_romantic" target="1899_composition_d" weight="6.0" />
-      <edge id="12" source="1899_romantic" target="1899_modern_classical" weight="12.0" />
-      <edge id="13" source="1899_romantic" target="1899_classical_organ" weight="2.0" />
-      <edge id="14" source="1899_romantic" target="1899_light_music" weight="1.0" />
-      <edge id="15" source="1899_early_music" target="1899_romantic" weight="6.0" />
-      <edge id="16" source="1899_early_music" target="1899_baroque" weight="26.0" />
-      <edge id="17" source="1899_early_music" target="1899_classical_period" weight="6.0" />
-      <edge id="18" source="1899_early_music" target="1899_classical_christmas" weight="16.0" />
-      <edge id="19" source="1899_early_music" target="1899_avant-garde" weight="1.0" />
-      <edge id="20" source="1899_early_music" target="1899_classical" weight="22.0" />
-      <edge id="21" source="1899_classical_christmas" target="1899_avant-garde" weight="6.0" />
-      <edge id="22" source="1899_classical_christmas" target="1899_composition_d" weight="1.0" />
-      <edge id="23" source="1899_classical_christmas" target="1899_modern_classical" weight="6.0" />
-      <edge id="24" source="1899_classical_christmas" target="1899_orchestral" weight="4.0" />
-      <edge id="25" source="1899_classical" target="1899_avant-garde" weight="13.0" />
-      <edge id="26" source="1899_classical" target="1899_composition_d" weight="4.0" />
-      <edge id="27" source="1899_classical" target="1899_modern_classical" weight="11.0" />
-      <edge id="28" source="1899_classical" target="1899_classical_organ" weight="1.0" />
-      <edge id="29" source="1899_renaissance" target="1899_romantic" weight="5.0" />
-      <edge id="30" source="1899_renaissance" target="1899_baroque" weight="24.0" />
-      <edge id="31" source="1899_renaissance" target="1899_classical_period" weight="5.0" />
-      <edge id="32" source="1899_renaissance" target="1899_classical_christmas" weight="16.0" />
-      <edge id="33" source="1899_renaissance" target="1899_avant-garde" weight="1.0" />
-      <edge id="34" source="1899_renaissance" target="1899_classical" weight="20.0" />
-      <edge id="35" source="1899_composition_d" target="1899_classical_organ" weight="1.0" />
-      <edge id="36" source="1899_composition_d" target="1899_avant-garde" weight="3.0" />
-      <edge id="37" source="1899_composition_d" target="1899_light_music" weight="2.0" />
-      <edge id="38" source="1899_composition_d" target="1899_modern_classical" weight="4.0" />
+      <edge id="0" source="1899_modern_classical" target="1899_minimal" weight="2.0" />
+      <edge id="1" source="1899_classical_period" target="1899_modern_classical" weight="2.0" />
+      <edge id="2" source="1899_classical_period" target="1899_composition_d" weight="3.0" />
+      <edge id="3" source="1899_classical_period" target="1899_avant-garde" weight="1.0" />
+      <edge id="4" source="1899_romantic" target="1899_classical_period" weight="36.0" />
+      <edge id="5" source="1899_romantic" target="1899_minimal" weight="3.0" />
+      <edge id="6" source="1899_romantic" target="1899_composition_d" weight="6.0" />
+      <edge id="7" source="1899_romantic" target="1899_avant-garde" weight="11.0" />
+      <edge id="8" source="1899_romantic" target="1899_modern_classical" weight="10.0" />
+      <edge id="9" source="1899_romantic" target="1899_classical_organ" weight="2.0" />
+      <edge id="10" source="1899_romantic" target="1899_light_music" weight="1.0" />
+      <edge id="11" source="1899_baroque" target="1899_classical_organ" weight="1.0" />
+      <edge id="12" source="1899_baroque" target="1899_classical_period" weight="37.0" />
+      <edge id="13" source="1899_baroque" target="1899_classical_christmas" weight="36.0" />
+      <edge id="14" source="1899_baroque" target="1899_avant-garde" weight="1.0" />
+      <edge id="15" source="1899_baroque" target="1899_romantic" weight="28.0" />
+      <edge id="16" source="1899_renaissance" target="1899_classical_period" weight="5.0" />
+      <edge id="17" source="1899_renaissance" target="1899_romantic" weight="5.0" />
+      <edge id="18" source="1899_renaissance" target="1899_baroque" weight="24.0" />
+      <edge id="19" source="1899_renaissance" target="1899_classical" weight="20.0" />
+      <edge id="20" source="1899_renaissance" target="1899_avant-garde" weight="1.0" />
+      <edge id="21" source="1899_renaissance" target="1899_classical_christmas" weight="16.0" />
+      <edge id="22" source="1899_composition_d" target="1899_avant-garde" weight="3.0" />
+      <edge id="23" source="1899_composition_d" target="1899_modern_classical" weight="4.0" />
+      <edge id="24" source="1899_composition_d" target="1899_classical_organ" weight="1.0" />
+      <edge id="25" source="1899_composition_d" target="1899_light_music" weight="2.0" />
+      <edge id="26" source="1899_avant-garde" target="1899_minimal" weight="2.0" />
+      <edge id="27" source="1899_classical" target="1899_classical_period" weight="27.0" />
+      <edge id="28" source="1899_classical" target="1899_minimal" weight="3.0" />
+      <edge id="29" source="1899_classical" target="1899_romantic" weight="97.0" />
+      <edge id="30" source="1899_classical" target="1899_composition_d" weight="4.0" />
+      <edge id="31" source="1899_classical" target="1899_avant-garde" weight="11.0" />
+      <edge id="32" source="1899_classical" target="1899_modern_classical" weight="9.0" />
+      <edge id="33" source="1899_classical" target="1899_classical_christmas" weight="45.0" />
+      <edge id="34" source="1899_classical" target="1899_classical_organ" weight="1.0" />
+      <edge id="35" source="1899_classical_christmas" target="1899_classical_period" weight="17.0" />
+      <edge id="36" source="1899_classical_christmas" target="1899_minimal" weight="1.0" />
+      <edge id="37" source="1899_classical_christmas" target="1899_avant-garde" weight="5.0" />
+      <edge id="38" source="1899_classical_christmas" target="1899_modern_classical" weight="5.0" />
+      <edge id="39" source="1899_classical_christmas" target="1899_orchestral" weight="3.0" />
+      <edge id="40" source="1899_classical_christmas" target="1899_composition_d" weight="1.0" />
+      <edge id="41" source="1899_early_music" target="1899_classical_period" weight="6.0" />
+      <edge id="42" source="1899_early_music" target="1899_romantic" weight="6.0" />
+      <edge id="43" source="1899_early_music" target="1899_baroque" weight="26.0" />
+      <edge id="44" source="1899_early_music" target="1899_classical" weight="22.0" />
+      <edge id="45" source="1899_early_music" target="1899_avant-garde" weight="1.0" />
+      <edge id="46" source="1899_early_music" target="1899_classical_christmas" weight="16.0" />
     </edges>
   </graph>
 </gexf>
